@@ -1,0 +1,19 @@
+{
+  "name": "school-checker",
+  "version": "1.0.0",
+  "description": "Web Application that will show in Google maps the information about schools and what properties are for rent/sell around it.",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byverdu/school-checker.git"
+  },
+  "author": "Albert Vallverdu <@byverdu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byverdu/school-checker/issues"
+  },
+  "homepage": "https://github.com/byverdu/school-checker#readme"
+}
