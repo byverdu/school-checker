@@ -1,19 +1,22 @@
 #!/bin/bash
 
+# url variables
+councilUrl="https:\/\/www.wandsworth.gov.uk\/schools-and-admissions\/schools\/types-of-school\/primary-schools\/"
+ofstedReportUrl="www.compare-school-performance.service.gov.uk\/school\/"
+curlSchoolsList=$(curl https://www.wandsworth.gov.uk/schools-and-admissions/schools/types-of-school/primary-schools/primary-schools-list/)
+
 # Actions
 function downloadListSchools {
   # save curl response
   mkdir .temp | echo "$curlSchoolsList" > .temp/primary-schools-list.html
 
   # # sort lines that are school links
-  cat .temp/primary-schools-list.html | grep '<li><a href="/schools-and-admissions/schools/types-of-school/primary-schools/primary-schools-list' > .temp/temp-schools-list.txt
+  cat .temp/primary-schools-list.html | grep '<li><a href="/schools-and-admissions/schools/types-of-school/primary-schools/primary-schools-list' > .temp/primary-schools-list.txt
 
   # convert html tags into plain text
   sed -i '' -e 's/<li><a href="/https:\/\/www.wandsworth.gov.uk/g
-  s/">.*/ /g' .temp/temp-schools-list.txt
+  s/">.*/ /g' .temp/primary-schools-list.txt
 
-  # remove extra tabs
-  tr -d " \t" < .temp/temp-schools-list.txt > .temp/primary-schools-list.txt
 }
 
 function dowloadOfstedReports {
@@ -22,7 +25,6 @@ function dowloadOfstedReports {
 
   # clean up ofsted reports data
   sed -i '' -e 's/<td>\(.*\)">/ /g;s/<\(.*\)td>/ /g' .temp/temp-ofsted-link.txt
-  tr -d " \t" < .temp/temp-ofsted-link.txt > shared-data/ofsted-link.txt
 }
 
 function createJSDataFile {
@@ -35,19 +37,19 @@ function createJSDataFile {
   # 4- Close array, needs to be in new line => $a\
   # ];
 
-  sed -e '1i\
-  const BASE_URL = '\"$ofstedReportUrl\"';
-  1s/^/module.exports = [/
+  sed -e '1s/^/module.exports = [/
   s/'$ofstedReportUrl'/`${BASE_URL}/g
   s/$/`,/g
   $a\
-  ];' shared-data/ofsted-link.txt > shared-data/schools-list.js
+  ];' .temp/temp-ofsted-link.txt > .temp/ofsted-data-scriptjs.txt
+  
+  # delete returns carriages and white spaces
+  tr -d "\r " < .temp/ofsted-data-scriptjs.txt > shared-data/ofsted-reports.js
+  
+  # Adding "const" afterwards for avoid losing whitespace when formatting in previous step
+  sed -i '' -e '1i\
+  const BASE_URL = '\"$ofstedReportUrl\"';' shared-data/ofsted-reports.js
 }
-
-# url variables
-councilUrl="https:\/\/www.wandsworth.gov.uk\/schools-and-admissions\/schools\/types-of-school\/primary-schools\/"
-ofstedReportUrl="www.compare-school-performance.service.gov.uk\/school\/"
-curlSchoolsList=$(curl https://www.wandsworth.gov.uk/schools-and-admissions/schools/types-of-school/primary-schools/primary-schools-list/)
 
 # Execute Actions
 downloadListSchools
