@@ -4,4 +4,4 @@ node_modules
 scrapper/cypress/fixtures
 scrapper/cypress/plugins
 scrapper/cypress/support
-
+.DS*

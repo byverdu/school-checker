@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Web Application that will show in Google maps the information about schools and what properties are for rent/sell around it.",
   "scripts": {
-    "web-scrapper": "./node_modules/.bin/cypress open -P scrapper"
+    "web-scrapper": "./node_modules/.bin/cypress run -P scrapper"
   },
   "repository": {
     "type": "git",
