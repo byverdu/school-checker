@@ -2,9 +2,8 @@
   "name": "school-checker",
   "version": "1.0.0",
   "description": "Web Application that will show in Google maps the information about schools and what properties are for rent/sell around it.",
-  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "web-scrapper": "./node_modules/.bin/cypress open -P scrapper"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,11 @@
   "bugs": {
     "url": "https://github.com/byverdu/school-checker/issues"
   },
-  "homepage": "https://github.com/byverdu/school-checker#readme"
+  "homepage": "https://github.com/byverdu/school-checker#readme",
+  "dependencies": {
+    "@types/node": "^12.6.3",
+    "cypress": "^3.4.0",
+    "typescript": "^3.5.3",
+    "uuid": "^3.3.2"
+  }
 }
