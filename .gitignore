@@ -1,0 +1,8 @@
+node_modules
+.history
+.temp
+scrapper/cypress/fixtures
+scrapper/cypress/plugins
+scrapper/cypress/support
+.DS*
+app/

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "shared-data/*": ["../shared-data/*"]
+      },
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "target": "es6",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "lib": [
+        "dom",
+        "es2015"
+      ]
+  }
+}
