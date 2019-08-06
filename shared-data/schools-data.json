@@ -1,63 +1,5 @@
 [
   {
-    "id": "726e8831-93a2-4ee7-b086-5f61571283b6",
-    "name": "Albemarle Primary School",
-    "schoolURLReport": "www.compare-school-performance.service.gov.uk/school/101032/albemarle-primary-school/primary",
-    "address": "Princes Way",
-    "postcode": "SW19 6JP",
-    "type": "Foundation school",
-    "sex": "Mixed",
-    "age": "3 to 11",
-    "religion": "None",
-    "website": "http://www.albemarle.wandsworth.sch.uk/",
-    "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101032",
-    "ofstedDate": "03 Mar 2009",
-    "ofstedRating": "1",
-    "statsReading": "Average:1.4",
-    "statsWriting": "Average:0.3",
-    "statsMaths": "Well above average:3.9",
-    "charts": {
-      "expected": {
-        "text": "Meeting expected Standard",
-        "svg": "<svg width=\"455\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"213.84\"></rect><text class=\"value-label\" x=\"218.84\" y=\"19\">72%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"207.89999999999998\"></rect><text class=\"value-label\" x=\"212.89999999999998\" y=\"54\">70%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"190.08\"></rect><text class=\"value-label\" x=\"195.08\" y=\"89\">64%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
-        "score": {
-          "school": "72",
-          "localAuthoroty": "70",
-          "england": "64"
-        }
-      },
-      "higher": {
-        "text": "Achieving higher Standard",
-        "svg": "<svg width=\"455\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"50.49\"></rect><text class=\"value-label\" x=\"55.49\" y=\"19\">17%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"38.61\"></rect><text class=\"value-label\" x=\"43.61\" y=\"54\">13%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"29.700000000000003\"></rect><text class=\"value-label\" x=\"34.7\" y=\"89\">10%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
-        "score": {
-          "school": "17",
-          "localAuthority": "13",
-          "england": "10"
-        }
-      },
-      "readScore": {
-        "text": "Average score in reading",
-        "svg": "<svg width=\"455\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"193.05\"></rect><text class=\"value-label\" x=\"198.05\" y=\"19\">106</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"193.05\"></rect><text class=\"value-label\" x=\"198.05\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"185.625\"></rect><text class=\"value-label\" x=\"190.625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H297.5V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(149,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(297.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
-        "score": {
-          "school": "106",
-          "localAuthority": "106",
-          "england": "105"
-        }
-      },
-      "writeScore": {
-        "text": "Average score in writing",
-        "svg": "<svg width=\"455\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"207.89999999999998\"></rect><text class=\"value-label\" x=\"212.89999999999998\" y=\"19\">108</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"193.05\"></rect><text class=\"value-label\" x=\"198.05\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"178.2\"></rect><text class=\"value-label\" x=\"183.2\" y=\"89\">104</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H297.5V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(149,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(297.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
-        "score": {
-          "school": "108",
-          "localAuthority": "106",
-          "england": "104"
-        }
-      }
-    },
-    "admissionNumber": 60,
-    "furthestDistance": 1523
-  },
-  {
     "id": "0ea5dc43-2650-4627-bfae-fdfeff970641",
     "name": "Alderbrook Primary School",
     "schoolURLReport": "www.compare-school-performance.service.gov.uk/school/100995/alderbrook-primary-school/primary",
@@ -112,6 +54,8 @@
         }
       }
     },
+    "lat": 51.4485349,
+    "lng": -0.14938929999993888,
     "admissionNumber": 60,
     "furthestDistance": 878
   },
@@ -170,6 +114,8 @@
         }
       }
     },
+    "lat": 51.4676605,
+    "lng": -0.2276056000000608,
     "admissionNumber": 30,
     "furthestDistance": 206
   },
@@ -228,6 +174,8 @@
         }
       }
     },
+    "lat": 51.4541925,
+    "lng": -0.18626150000000052,
     "admissionNumber": 60,
     "furthestDistance": 559
   },
@@ -245,6 +193,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/146214",
     "ofstedDate": "29 Nov 2017",
     "ofstedRating": "3",
+    "lat": 51.4620481,
+    "lng": -0.17405710000002728,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -303,6 +253,8 @@
         }
       }
     },
+    "lat": 51.444271,
+    "lng": -0.18206609999992907,
     "admissionNumber": 60,
     "furthestDistance": 711
   },
@@ -361,6 +313,8 @@
         }
       }
     },
+    "lat": 51.4568507,
+    "lng": -0.16461800000001858,
     "admissionNumber": 120,
     "furthestDistance": 391
   },
@@ -418,6 +372,8 @@
         }
       }
     },
+    "lat": 51.4658956,
+    "lng": -0.15145480000001044,
     "admissionNumber": 74,
     "furthestDistance": 1815
   },
@@ -476,6 +432,8 @@
         }
       }
     },
+    "lat": 51.4614607,
+    "lng": -0.20734149999998408,
     "admissionNumber": 30,
     "furthestDistance": 77
   },
@@ -534,6 +492,8 @@
         }
       }
     },
+    "lat": 51.4309938,
+    "lng": -0.17372610000006716,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -551,6 +511,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/145280",
     "ofstedDate": "11 Mar 2008",
     "ofstedRating": "1",
+    "lat": 51.4736039,
+    "lng": -0.15663740000002235,
     "admissionNumber": 60,
     "furthestDistance": 981
   },
@@ -609,6 +571,8 @@
         }
       }
     },
+    "lat": 51.4666145,
+    "lng": -0.16605249999997795,
     "admissionNumber": 60,
     "furthestDistance": 350
   },
@@ -667,6 +631,8 @@
         }
       }
     },
+    "lat": 51.441475,
+    "lng": -0.1862684000000172,
     "admissionNumber": 60,
     "furthestDistance": 350
   },
@@ -725,6 +691,8 @@
         }
       }
     },
+    "lat": 51.4681618,
+    "lng": -0.17441659999997228,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -783,6 +751,8 @@
         }
       }
     },
+    "lat": 51.4368318,
+    "lng": -0.16413330000000315,
     "admissionNumber": 60,
     "furthestDistance": 682
   },
@@ -800,6 +770,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/140423",
     "ofstedDate": "10 May 2018",
     "ofstedRating": "2",
+    "lat": 51.447378,
+    "lng": -0.18887760000006892,
     "admissionNumber": 60,
     "furthestDistance": 449
   },
@@ -817,6 +789,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/146191",
     "ofstedDate": "13 Sep 2016",
     "ofstedRating": "2",
+    "lat": 51.427403,
+    "lng": -0.1608696000000691,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -875,6 +849,8 @@
         }
       }
     },
+    "lat": 51.4220008,
+    "lng": -0.1525914000000057,
     "admissionNumber": 60,
     "furthestDistance": 575
   },
@@ -933,6 +909,8 @@
         }
       }
     },
+    "lat": 51.4305929,
+    "lng": -0.1673971000000165,
     "admissionNumber": 90,
     "furthestDistance": 1085
   },
@@ -949,6 +927,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/146549",
     "ofstedDate": "Not Applicable",
     "ofstedRating": "-",
+    "lat": 51.42152309999999,
+    "lng": -0.1410452999999734,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1007,6 +987,8 @@
         }
       }
     },
+    "lat": 51.4558324,
+    "lng": -0.233022300000016,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1065,6 +1047,8 @@
         }
       }
     },
+    "lat": 51.4740372,
+    "lng": -0.13837409999996453,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1123,6 +1107,8 @@
         }
       }
     },
+    "lat": 51.4456395,
+    "lng": -0.24212390000002415,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1181,6 +1167,8 @@
         }
       }
     },
+    "lat": 51.4326527,
+    "lng": -0.16089990000000398,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1239,6 +1227,8 @@
         }
       }
     },
+    "lat": 51.4480002,
+    "lng": -0.15631039999993845,
     "admissionNumber": 30,
     "furthestDistance": 785
   },
@@ -1256,6 +1246,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101012",
     "ofstedDate": "20 Jan 2010",
     "ofstedRating": "1",
+    "lat": 51.4547208,
+    "lng": -0.16203629999995428,
     "admissionNumber": 0,
     "furthestDistance": 0
   },
@@ -1314,6 +1306,8 @@
         }
       }
     },
+    "lat": 51.4547208,
+    "lng": -0.16203629999995428,
     "admissionNumber": 90,
     "furthestDistance": 250
   },
@@ -1372,6 +1366,8 @@
         }
       }
     },
+    "lat": 51.4643896,
+    "lng": -0.22132950000002438,
     "admissionNumber": 60,
     "furthestDistance": 912
   },
@@ -1430,6 +1426,8 @@
         }
       }
     },
+    "lat": 51.4694227,
+    "lng": -0.15303429999994478,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1447,6 +1445,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/139687",
     "ofstedDate": "25 Jun 2015",
     "ofstedRating": "1",
+    "lat": 51.4518691,
+    "lng": -0.24511870000003455,
     "admissionNumber": 60,
     "furthestDistance": 2118
   },
@@ -1464,6 +1464,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/140222",
     "ofstedDate": "Not Applicable",
     "ofstedRating": "-",
+    "lat": 51.4691346,
+    "lng": -0.2292721999999685,
     "admissionNumber": 60,
     "furthestDistance": 2141
   },
@@ -1483,6 +1485,8 @@
     "ofstedRating": "1",
     "statsReading": "Well above average:3.9",
     "statsWriting": "Average:0.7",
+    "lat": 51.4637289,
+    "lng": -0.22352980000005118,
     "admissionNumber": 30,
     "furthestDistance": 0
   },
@@ -1541,6 +1545,8 @@
         }
       }
     },
+    "lat": 51.44797939999999,
+    "lng": -0.22046469999997953,
     "admissionNumber": 30,
     "furthestDistance": 395
   },
@@ -1599,6 +1605,8 @@
         }
       }
     },
+    "lat": 51.4224196,
+    "lng": -0.14572199999997792,
     "admissionNumber": 90,
     "furthestDistance": 446
   },
@@ -1657,6 +1665,8 @@
         }
       }
     },
+    "lat": 51.4415232,
+    "lng": -0.15288140000006933,
     "admissionNumber": 58,
     "furthestDistance": 987
   },
@@ -1715,6 +1725,8 @@
         }
       }
     },
+    "lat": 51.44637650000001,
+    "lng": -0.19915079999998397,
     "admissionNumber": 60,
     "furthestDistance": 855
   },
@@ -1773,6 +1785,8 @@
         }
       }
     },
+    "lat": 51.4482747,
+    "lng": -0.2373689999999442,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -1831,6 +1845,8 @@
         }
       }
     },
+    "lat": 51.4483983,
+    "lng": -0.2157842999999957,
     "admissionNumber": 30,
     "furthestDistance": 220
   },
@@ -1848,6 +1864,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/139775",
     "ofstedDate": "02 Jul 2015",
     "ofstedRating": "2",
+    "lat": 51.4390966,
+    "lng": -0.15550880000000689,
     "admissionNumber": 60,
     "furthestDistance": 733
   },
@@ -1906,6 +1924,8 @@
         }
       }
     },
+    "lat": 51.46940420000001,
+    "lng": -0.16661999999996624,
     "admissionNumber": 60,
     "furthestDistance": 753
   },
@@ -1964,6 +1984,8 @@
         }
       }
     },
+    "lat": 51.4575936,
+    "lng": -0.24194569999997384,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2021,6 +2043,8 @@
         }
       }
     },
+    "lat": 51.4231282,
+    "lng": -0.16781059999993886,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2079,6 +2103,8 @@
         }
       }
     },
+    "lat": 51.4688435,
+    "lng": -0.15661069999998745,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2137,6 +2163,8 @@
         }
       }
     },
+    "lat": 51.44669709999999,
+    "lng": -0.20355949999998302,
     "admissionNumber": 60,
     "furthestDistance": 0
   },
@@ -2195,6 +2223,8 @@
         }
       }
     },
+    "lat": 51.431644,
+    "lng": -0.1777650999999878,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2253,6 +2283,8 @@
         }
       }
     },
+    "lat": 51.4453621,
+    "lng": -0.2160363000000416,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2311,6 +2343,8 @@
         }
       }
     },
+    "lat": 51.4561572,
+    "lng": -0.18921239999997397,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2369,6 +2403,8 @@
         }
       }
     },
+    "lat": 51.4359384,
+    "lng": -0.15761810000003607,
     "admissionNumber": 30,
     "furthestDistance": 0
   },
@@ -2427,6 +2463,8 @@
         }
       }
     },
+    "lat": 51.4274803,
+    "lng": -0.16426160000003165,
     "admissionNumber": 50,
     "furthestDistance": 0
   },
@@ -2485,6 +2523,8 @@
         }
       }
     },
+    "lat": 51.45952620000001,
+    "lng": -0.1863888999999972,
     "admissionNumber": 30,
     "furthestDistance": 634
   },
@@ -2543,6 +2583,8 @@
         }
       }
     },
+    "lat": 51.4770731,
+    "lng": -0.1393987000000152,
     "admissionNumber": 30,
     "furthestDistance": 246
   },
@@ -2601,6 +2643,8 @@
         }
       }
     },
+    "lat": 51.4664398,
+    "lng": -0.22217290000003231,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2659,6 +2703,8 @@
         }
       }
     },
+    "lat": 51.4764911,
+    "lng": -0.14554550000002564,
     "admissionNumber": 30,
     "furthestDistance": 62
   },
@@ -2717,6 +2763,8 @@
         }
       }
     },
+    "lat": 51.4503073,
+    "lng": -0.20358580000004167,
     "admissionNumber": 60,
     "furthestDistance": 329
   },
@@ -2774,6 +2822,8 @@
         }
       }
     },
+    "lat": 51.45917499999999,
+    "lng": -0.20034420000001774,
     "admissionNumber": 0,
     "furthestDistance": 0
   },
@@ -2832,6 +2882,8 @@
         }
       }
     },
+    "lat": 51.4513211,
+    "lng": -0.1859670000000051,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2890,6 +2942,8 @@
         }
       }
     },
+    "lat": 51.45250679999999,
+    "lng": -0.25394779999999173,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -2907,6 +2961,8 @@
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/139592",
     "ofstedDate": "24 Jun 2015",
     "ofstedRating": "1",
+    "lat": 51.4270729,
+    "lng": -0.1623342999999977,
     "admissionNumber": 60,
     "furthestDistance": 615
   },
@@ -2965,6 +3021,8 @@
         }
       }
     },
+    "lat": 51.4425043,
+    "lng": -0.15545429999997395,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
@@ -3023,6 +3081,8 @@
         }
       }
     },
+    "lat": 51.4554847,
+    "lng": -0.19894030000000384,
     "admissionNumber": 30,
     "furthestDistance": 1835
   },
@@ -3081,6 +3141,8 @@
         }
       }
     },
+    "lat": 51.47727649999999,
+    "lng": -0.17181000000005042,
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   }
