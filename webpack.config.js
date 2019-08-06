@@ -1,4 +1,5 @@
 const CopyPlugin = require('copy-webpack-plugin');
+const {TsconfigPathsPlugin} = require('tsconfig-paths-webpack-plugin');
 
 module.exports = {
   mode: "production",
@@ -13,7 +14,13 @@ module.exports = {
 
   resolve: {
       // Add '.ts' and '.tsx' as resolvable extensions.
-      extensions: [".ts", ".tsx"]
+      extensions: [".ts", ".tsx"],
+      plugins: [
+        new TsconfigPathsPlugin({
+          configFile: './tsconfig.json',
+          baseUrl: 'src'
+        })
+      ]
   },
 
   plugins: [

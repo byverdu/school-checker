@@ -1,4 +1,5 @@
 import moment, {Moment} from 'moment';
+
 export interface School {
   id: string;
   name: string;
@@ -98,7 +99,11 @@ export interface Chart {
     localAuthority: number;
     england: number;
   }
-} 
+}
+
+export interface WindowMap extends Window {
+  schoolAppInitMap: Function
+}
 
 export enum EnumOfstedRating {
   None,
