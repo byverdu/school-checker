@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <Fragment>
-      <h1>Title App</h1>
+      <h1>School Checker App</h1>
       <div id="map"></div>
     </Fragment>
   )
