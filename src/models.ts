@@ -113,6 +113,14 @@ export enum EnumOfstedRating {
   Inadequate,
 }
 
+export enum EnumOfstedRatingColouring {
+  None,
+  Outstanding = '#517143',
+  Good = '#FFCC00',
+  'Requires improvement' = '#F96D02',
+  Inadequate = '#CA3C25',
+}
+
 export enum EnumTypeOfSchool {
   'Foundation school',
   'Maintained school',
