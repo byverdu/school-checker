@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import { WindowMap } from 'models';
 import { schoolAppInitMap } from 'utils/maps';
 
+import '../../static/styles.css';
+
 const App = () => {
 
   (window as WindowMap).schoolAppInitMap = schoolAppInitMap;
