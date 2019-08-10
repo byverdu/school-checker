@@ -1,5 +1,6 @@
 import { SchoolMaker, School } from 'models';
 const schoolsData = require('shared-data/schools-data.json');
+import {createMarker} from 'utils/marker';
 
 export function schoolAppInitMap () {
   var position;
@@ -43,7 +44,6 @@ export function schoolAppInitMap () {
 
     schoolsData.forEach((school: School) => {
       const tempSchool = SchoolMaker.create(school)
-      createMarker(tempSchool)
-    });
-
+      createMarker(map, tempSchool);
+    })
 }
