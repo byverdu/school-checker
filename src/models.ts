@@ -1,4 +1,4 @@
-import moment, {Moment} from 'moment';
+import moment from 'moment';
 
 export interface School {
   id: string;
@@ -12,7 +12,7 @@ export interface School {
   religion: string;
   website: string;
   extraInfo: string;
-  ofstedDate: Moment;
+  ofstedDate: string;
   daysSinceLastReport: string;
   ofstedRating: string;
   statsReading: string;
@@ -27,7 +27,7 @@ export interface School {
 
 export class SchoolMaker {
   static create(school: School): School {
-    
+
     const {
       id,
       name,
@@ -52,10 +52,25 @@ export class SchoolMaker {
       lng
     } = school;
 
-    const diffYears = moment().diff(moment(ofstedDate), 'years');
-    const diffMonths = moment().diff(moment(ofstedDate), 'months');
-    const diffDays = moment().diff(moment(ofstedDate), 'days');
-    const daysSinceLastReport = `${diffYears} years ${Math.round(diffMonths)} months and ${Math.round(diffDays)} days`;
+    let daysSinceLastReport = 'Not Applicable';
+    let ofstedDay = ofstedDate;
+
+    if (moment(ofstedDate).isValid()) {
+      const today = moment();
+      ofstedDay = moment(ofstedDate).format('DD MMM YYYY');
+      let tempDate = moment(ofstedDate);
+  
+      let diffYears = today.diff(tempDate, 'years');
+      tempDate.add(diffYears, 'years');
+      
+      let diffMonths = today.diff(tempDate, 'months');
+      tempDate.add(diffMonths, 'months');
+  
+      let diffDays = today.diff(tempDate, 'days');
+      
+      daysSinceLastReport = `${diffYears} years ${diffMonths} months and ${diffDays} days`;
+    }
+
 
     return {
       id,
@@ -63,13 +78,13 @@ export class SchoolMaker {
       schoolURLReport,
       address,
       postcode,
-      type: mapTypeOfSchool[EnumTypeOfSchool[type]],
+      type,
       sex,
       age,
       religion,
       website,
       extraInfo,
-      ofstedDate: moment(ofstedDate),
+      ofstedDate: ofstedDay ,
       daysSinceLastReport,
       ofstedRating: EnumOfstedRating[ofstedRating],
       statsReading,
@@ -114,7 +129,7 @@ export enum EnumOfstedRating {
 }
 
 export enum EnumOfstedRatingColouring {
-  None,
+  None = '#5158BB',
   Outstanding = '#517143',
   Good = '#FFCC00',
   'Requires improvement' = '#F96D02',
@@ -133,7 +148,7 @@ export enum EnumTypeOfSchool {
   'Free school - Mainstream'
 }
 
-const mapTypeOfSchool = {
+export const mapTypeOfSchool = {
   0: `Foundation schools are maintained schools which differ from other maintained schools in that the governing body employs the staff, most commonly holds the land and buildings, and is responsible for admissions.
 
   A smaller number of foundation schools are supported by a charitable foundation. In these cases the foundation, rather than the governing body, will hold the land.`,
