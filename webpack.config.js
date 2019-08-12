@@ -31,8 +31,7 @@ module.exports = {
 
   plugins: [
     new CopyPlugin([
-      './static/index.html',
-      './static/styles.css'
+      './static/index.html'
     ]),
   ],
 
@@ -48,8 +47,8 @@ module.exports = {
         ]
       },
       {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
+        test: /\.scss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
       {

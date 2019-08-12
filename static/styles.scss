@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code:300,400&display=swap');
+
+#map,
+#root {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Code', monospace;
+}
+
+.map-title {
+  font-weight: 300;
+  text-align: center;
+  font-size: 45px;
+  text-shadow: -4px 3px 4px grey;
+
+  &::first-letter {
+    font-size: 70px;
+    color: #EF476F;
+  }
+}
+
+.school-parent-popup {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: -999999;
+}
+
+.school-title-popup {
+  width: 150px;
+  border: 1px dashed;
+  position: absolute;
+  padding: 8px 10px;
+  background: white;
+  font-weight: 300;
+  border-radius: 5px;
+  display: none;
+}
+
+.school-info-window {
+  padding: 0 10px;
+
+  & dt {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 6px 0;
+
+    &:not(:empty):not(:first-child) {
+      border-top: 1px solid grey;
+      padding-top: 7px;
+    }
+  }
+
+  & dd {
+    line-height: 20px;
+    margin: 10px;
+  }
+}
+
+
+.map-filters {
+  &-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+  }
+
+  &-container {
+    margin: 10px;
+  }
+
+  &-item {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    font-size: 22px;
+    user-select: none;
+
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked ~ label {
+        width: 200px;
+        box-shadow: 0 0 4px #06D6A0;
+        background: #06D6A0;
+      }
+    }
+
+    label {
+      width: 200px;
+      display: flex;
+      font-size: 14px;
+      font-weight: 300;
+      box-shadow: 0 0 4px black;
+      padding: 5px;
+      background: #0A81D1;
+      color: white;
+      cursor: pointer;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+  }
+}
