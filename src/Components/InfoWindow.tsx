@@ -34,14 +34,12 @@ const definitionListRenderer = (school: School) => {
   const getTermValue = (item: string): string | React.ReactNode => {
     switch(item) {
       case 'type':
-        console.log(item, school.type)
         return school.type
 
         default:
         return item;
     }
   }
-  
 
   return Object.keys(rest).map(item => (
     <React.Fragment>

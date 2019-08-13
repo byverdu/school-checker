@@ -48,8 +48,8 @@ const App = () => {
   });  
 
   return (
-    <Fragment>
-      <h1 className="map-title">School Checker App</h1>
+    <section className="school-checker">
+      <h1 className="map-title">School Checker</h1>
       <details>
         <summary>Select Filters</summary>
         <div className="map-filters-wrapper">
@@ -67,7 +67,7 @@ const App = () => {
       </details>
     
       <div id="map"></div>
-    </Fragment>
+    </section>
   )
 }
 

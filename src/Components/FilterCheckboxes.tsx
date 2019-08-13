@@ -12,9 +12,6 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
 }) => {
   const items = schools.map(school => {
     switch (propToRender) {
-      case 'ofstedRating':
-        return EnumOfstedRating[school[propToRender]];
-
       case 'statsReading':
       case 'statsWriting':
       case 'statsMaths':
@@ -32,6 +29,7 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
       {
         uniqueItems.map((value, index) => {
           if (value) {
+            const textLabel = propToRender === 'ofstedRating' ? EnumOfstedRating[value] : value;
             return (
               <div className="map-filters-item">
                 <input
@@ -45,7 +43,7 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
                     })
                   }
                 />
-                <label htmlFor={`${value}-${index}`}>{value}</label>
+                <label htmlFor={`${value}-${index}`}>{textLabel}</label>
               </div>
             );
           }
