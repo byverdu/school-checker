@@ -63,7 +63,7 @@ export function schoolAppInitMap(schools: School[]) {
         try {
 
           // do a schools copy so we can filter them
-          let result = [...schools];
+          let result = [];
           function filtersCriteria(initialCount) {
             const iterationCount = filters.length;
 
@@ -73,13 +73,18 @@ export function schoolAppInitMap(schools: School[]) {
             }
 
             const { key, value } = filters[initialCount];
-            result = [...result.filter(item => item[key] === value)];
+            const filtered = schools.filter(item => item[key] === value); 
+            result = [...result, ...filtered];
 
             initialCount += 1;
             return filtersCriteria(initialCount);
           }
 
           filtersCriteria(0);
+
+          if (filters.length === 0) {
+            result = [...schools];
+          }
 
           loadMapMarkers(result, map, markers)
         } catch (e) {
