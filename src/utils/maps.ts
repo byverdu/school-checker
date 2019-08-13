@@ -2,11 +2,7 @@ import { SchoolMaker, School } from 'models';
 import { createMarker } from 'utils/marker';
 import createSchoolPopup from 'utils/popup';
 
-export function schoolAppInitMap () {
-  var map = new google.maps.Map(
-    document.getElementById('map'),
-    { center: new google.maps.LatLng(51.458509, -0.2058498999999756), zoom: 14 }
-  );
+const paths = require('../../shared-data/polygon-data.json');
 
 function loadMapMarkers(
   schools: School[],
@@ -34,6 +30,15 @@ export function schoolAppInitMap(schools: School[]) {
       zoom: 14
     }
   );
+
+  var wandsworthBoundariesLine = new google.maps.Polyline({
+    path: paths,
+    strokeColor: '#EF476F',
+    strokeWeight: 4,
+  });
+
+  // Draw the polygon on the desired map instance
+  wandsworthBoundariesLine.setMap(map);
 
   let markers: google.maps.Marker[] = [];
   let filters: { key: string, value: string }[] = [];
