@@ -14,11 +14,47 @@ body {
   font-family: 'Fira Code', monospace;
 }
 
+.school-checker {
+  padding: 20px;
+  height: 100%;
+}
+
+details {
+  margin-bottom: 10px;
+
+  button {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 100;
+    margin: 0 auto;
+    display: block;
+    border: none;
+
+    &:hover {
+      box-shadow: 0 0 3px #06D6A0;
+      cursor: pointer;
+    }
+
+    &:active {
+      box-shadow: 0 0 3px darken(#06D6A0, 20%);
+      outline: none;
+      font-size: 23px;
+    }
+
+    &:focus {
+      outline-width: 1px;
+      outline-style: ridge;
+      outline-color: darken(#06D6A0, 20%);
+    }
+  }
+}
+
 .map-title {
   font-weight: 300;
   text-align: center;
   font-size: 45px;
   text-shadow: -4px 3px 4px grey;
+  margin-top: 0; 
 
   &::first-letter {
     font-size: 70px;
