@@ -87,6 +87,7 @@ export function schoolAppInitMap(schools: School[]) {
         } finally {
           // re-center the map
           map.setCenter(new google.maps.LatLng(51.458509, -0.2058498999999756));
+          map.setZoom(14);
           google.maps.event.trigger(map, 'idle');
         }
       });
@@ -108,6 +109,7 @@ export function schoolAppInitMap(schools: School[]) {
 
     // Center the map in Putney
     map.setCenter(new google.maps.LatLng(51.458509, -0.2058498999999756));
+    map.setZoom(14);
 
     // reload initial schools
     loadMapMarkers(schools, map, markers);

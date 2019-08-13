@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { School, EnumOfstedRatingColouring } from 'models';
 import InfoWindow from 'Components/InfoWindow';
+import SchoolIcon from 'Components/SchoolIcon';
 
 function getSchoolSymbol(school: School): google.maps.Symbol {
   return {
@@ -17,16 +18,22 @@ function getSchoolSymbol(school: School): google.maps.Symbol {
 export function createMarker(map: google.maps.Map, school: School) {
   const element = ReactDOMServer.renderToString(<InfoWindow school={school} />)
   
-  var schoolSymbol = getSchoolSymbol(school);
+  // var schoolSymbol = getSchoolSymbol(school);
   var infowindow = new google.maps.InfoWindow();
+
+  const svg = ReactDOMServer.renderToString(<SchoolIcon ratingColor={EnumOfstedRatingColouring[school.ofstedRating]} />)
 
   var marker = new google.maps.Marker({
     position: new google.maps.LatLng(school.lat, school.lng),
     map: map,
-    icon: schoolSymbol,
+    icon: {
+      url: 'data:image/svg+xml;charset=UTF-8;base64,' + btoa(svg),
+      scaledSize: new google.maps.Size(50, 50)
+    },
     title: school.name
   });
   var cityCircle;
+
   google.maps.event.addListener(marker, 'mouseover', function () {
     cityCircle = new google.maps.Circle({
       strokeColor: '#FF0000',
@@ -39,6 +46,7 @@ export function createMarker(map: google.maps.Map, school: School) {
       radius: school.furthestDistance
     });
   });
+
   google.maps.event.addListener(marker, 'mouseout', function () {
     cityCircle.setMap(null);
   });
@@ -46,8 +54,7 @@ export function createMarker(map: google.maps.Map, school: School) {
   google.maps.event.addListener(marker, 'click', function () {
     infowindow.setContent(element);
     infowindow.open(map, marker);
-    // google.maps.event.addListener(infowindow, 'closeclick', function () {
-    //   cityCircle.setMap(null);
-    // });
   });
+
+  return marker;
 }
