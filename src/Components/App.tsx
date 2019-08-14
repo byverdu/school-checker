@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import { WindowMap } from 'models';
 import { schoolAppInitMap } from 'utils/maps';
 import FilterCheckBoxes from 'Components/FilterCheckboxes';
+import MapLegends from 'Components/MapLegends';
 
 const schoolsData = require('shared-data/schools-data.json');
 
@@ -50,6 +51,10 @@ const App = () => {
   return (
     <section className="school-checker">
       <h1 className="map-title">School Checker</h1>
+      <details>
+        <summary>Map Legends</summary>
+        <MapLegends />
+      </details>
       <details>
         <summary>Select Filters</summary>
         <div className="map-filters-wrapper">

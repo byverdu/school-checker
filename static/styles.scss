@@ -150,3 +150,28 @@ details {
     }
   }
 }
+
+.legend {
+  &-container {
+    display: flex;
+  }
+
+  &-school-types {
+    flex-basis: 80%;
+  }
+  
+  &-ratings li svg {
+    margin-right: 10px;
+  }
+
+  &-school-types li,
+  &-ratings li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &-school-types-item {
+    border-bottom: 1px solid;
+  }
+}
