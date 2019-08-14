@@ -34,7 +34,7 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
               <div className="map-filters-item">
                 <input
                   className="map-filters"
-                  id={`${value}-${index}`}
+                  id={`${propToRender}-${index}`}
                   type="checkbox"
                   value={
                     JSON.stringify({
@@ -43,7 +43,7 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
                     })
                   }
                 />
-                <label htmlFor={`${value}-${index}`}>{textLabel}</label>
+                <label htmlFor={`${propToRender}-${index}`}>{textLabel}</label>
               </div>
             );
           }

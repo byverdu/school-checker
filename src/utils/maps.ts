@@ -23,15 +23,17 @@ function loadMapMarkers(
 }
 
 export function schoolAppInitMap(schools: School[]) {
-  var map = new google.maps.Map(
+  const LatLng: google.maps.LatLng = new google.maps.LatLng(51.4372907, -0.2058498999999756);
+  const zoomMap = 14;
+  const map = new google.maps.Map(
     document.getElementById('map'),
     {
-      center: new google.maps.LatLng(51.4372907, -0.2540906),
-      zoom: 14
+      center: LatLng,
+      zoom: zoomMap
     }
   );
 
-  var wandsworthBoundariesLine = new google.maps.Polyline({
+  const wandsworthBoundariesLine = new google.maps.Polyline({
     path: paths,
     strokeColor: '#EF476F',
     strokeWeight: 4,
@@ -56,7 +58,7 @@ export function schoolAppInitMap(schools: School[]) {
         }
 
         // empty previous markers on the map
-        for (var i = 0; i < markers.length; i++) {
+        for (let i = 0; i < markers.length; i += 1) {
           markers[i].setMap(null);
         }
         markers = [];
@@ -73,7 +75,12 @@ export function schoolAppInitMap(schools: School[]) {
             }
 
             const { key, value } = filters[initialCount];
-            const filtered = schools.filter(item => item[key] === value); 
+            const filtered = schools.filter(item => {
+              if (item[key] && item[key].includes(value)) {
+                return item[key].includes(value);
+              }
+              return item[key] === value
+            }); 
             result = [...result, ...filtered];
 
             initialCount += 1;
@@ -91,8 +98,8 @@ export function schoolAppInitMap(schools: School[]) {
           throw Error(e);
         } finally {
           // re-center the map
-          map.setCenter(new google.maps.LatLng(51.458509, -0.2058498999999756));
-          map.setZoom(14);
+          map.setCenter(LatLng);
+          map.setZoom(zoomMap);
           google.maps.event.trigger(map, 'idle');
         }
       });
@@ -113,8 +120,8 @@ export function schoolAppInitMap(schools: School[]) {
     document.querySelectorAll('.map-filters:checked').forEach(item => (item as HTMLInputElement).checked = false)
 
     // Center the map in Putney
-    map.setCenter(new google.maps.LatLng(51.458509, -0.2058498999999756));
-    map.setZoom(14);
+    map.setCenter(LatLng);
+    map.setZoom(zoomMap);
 
     // reload initial schools
     loadMapMarkers(schools, map, markers);
