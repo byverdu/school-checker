@@ -9,8 +9,11 @@ const AppNav: SFC<{ schools: School[], filters: any[], prevLocation: string }> =
   <Fragment>
     <Link to="/">Home</Link>
     <details>
-      <summary>Primary Schools</summary>
-      <SchoolsList schools={schools} />
+      <summary>Primary Schools Details</summary>
+      <SchoolsList
+        schools={schools}
+        activeId={prevLocation.split('/').pop()}
+      />
     </details>
     {prevLocation === '/' && (
       <Fragment>

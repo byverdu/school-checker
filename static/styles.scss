@@ -175,3 +175,28 @@ details {
     border-bottom: 1px solid;
   }
 }
+
+.school-link {
+  padding: 8px;
+  text-decoration: none;
+  border: 1px solid #0A81D1;
+  margin: 2px;
+  background: #0A81D1;
+  color: white;
+
+  &:hover {
+    background: #ffffff;
+    color: #0A81D1;
+  }
+  
+  &-active {
+    box-shadow: 0 0 4px #06D6A0;
+    background: #06D6A0;
+  }
+
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
