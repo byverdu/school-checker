@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { School, EnumOfstedRating } from 'models';
 
 interface FilterCheckBoxesProps {
@@ -31,7 +31,7 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
           if (value) {
             const textLabel = propToRender === 'ofstedRating' ? EnumOfstedRating[value] : value;
             return (
-              <div className="map-filters-item">
+              <div className="map-filters-item" key={index}>
                 <input
                   className="map-filters"
                   id={`${propToRender}-${index}`}

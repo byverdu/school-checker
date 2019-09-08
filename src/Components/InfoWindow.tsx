@@ -41,8 +41,8 @@ const definitionListRenderer = (school: School) => {
     }
   }
 
-  return Object.keys(rest).map(item => (
-    <React.Fragment>
+  return Object.keys(rest).map((item, index) => (
+    <React.Fragment key={index}>
       <dt>{item ? getTermValue(item) : null}</dt>
       <dd>{getDescriptionValue(item)}</dd>
     </React.Fragment>

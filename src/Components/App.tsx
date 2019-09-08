@@ -1,41 +1,42 @@
-import React, { Fragment } from 'react';
-import { WindowMap } from 'models';
+import React, { useState} from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { WindowMap, School } from 'models';
 import { schoolAppInitMap } from 'utils/maps';
-import FilterCheckBoxes from 'Components/FilterCheckboxes';
-import MapLegends from 'Components/MapLegends';
+import SchoolInfo from 'Components/SchoolInfo';
+import AppNav from 'Components/AppNav';
 
 const schoolsData = require('shared-data/schools-data.json');
 
 import '../../static/styles.scss';
 
-const filters = [
+const mapFilters = [
   {
-    title:"Ofsted Rating",
-    propToRender:"ofstedRating"
+    title: 'Ofsted Rating',
+    propToRender: 'ofstedRating'
   },
   {
-    title:"Type of School",
-    propToRender:"type"
+    title: 'Type of School',
+    propToRender: 'type'
   },
   {
-    title:"Reading Score",
-    propToRender:"statsReading"
+    title: 'Reading Score',
+    propToRender: 'statsReading'
   },
   {
-    title:"Writing Score",
-    propToRender:"statsWriting"
+    title: 'Writing Score',
+    propToRender: 'statsWriting'
   },
   {
-    title:"Maths Score",
-    propToRender:"statsMaths"
+    title: 'Maths Score',
+    propToRender: 'statsMaths'
   },
   {
-    title:"Religions",
-    propToRender:"religion"
+    title: 'Religions',
+    propToRender: 'religion'
   },
   {
-    title:"Pupils Ages",
-    propToRender:"age"
+    title: 'Pupils Ages',
+    propToRender: 'age'
   }
 ].map(item => ({
   ...item,
@@ -43,36 +44,40 @@ const filters = [
 }));
 
 const App = () => {
-    
-  (window as WindowMap).schoolAppInitMap = (function() {
+
+  (window as WindowMap).schoolAppInitMap = (function () {
     schoolAppInitMap(schoolsData);
-  });  
+  });
+
+  const [prevLocation, setPrevLocation] = useState('/');
 
   return (
-    <section className="school-checker">
-      <h1 className="map-title">School Checker</h1>
-      <details>
-        <summary>Map Legends</summary>
-        <MapLegends />
-      </details>
-      <details>
-        <summary>Select Filters</summary>
-        <div className="map-filters-wrapper">
-          {
-            filters.map(filter => (
-              <FilterCheckBoxes
-                {...filter}
-              />
-            ))
+    <Router>
+      <section className="school-checker">
+        <h1 className="map-title">School Checker</h1>
+        <AppNav
+          schools={schoolsData}
+          filters={mapFilters}
+          prevLocation={prevLocation}
+        />
+
+        <Route exact path="/" render={() => {
+            if (prevLocation !== '/') {
+              window.location.reload();
+              setPrevLocation('/');
+            }
+            return <div id="map"></div>
           }
-        </div>
-        <button id="clear-filters">
-          Clear All Filters
-        </button>
-      </details>
-    
-      <div id="map"></div>
-    </section>
+        } />
+        <Route path="/school/:id" render={ (props) => {
+          const {params : {id}, url} = props.match;
+          const school = schoolsData.find((school: School) => school.id === id);
+          setPrevLocation(url);
+            
+          return <SchoolInfo school={school} />
+        }} />
+      </section>
+    </Router>
   )
 }
 

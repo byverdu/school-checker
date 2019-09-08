@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import SchoolIcon from 'Components/SchoolIcon';
 import { EnumOfstedRating, EnumTypeOfSchool, EnumOfstedRatingColouring, mapTypeOfSchool } from 'models';
 
@@ -10,13 +10,11 @@ const MapLegends: React.SFC = () => (
       <ul>
         <li><h5>Ofsted Ratings</h5></li>
         {
-          Object.keys(EnumOfstedRating).map(rating => {
+          Object.keys(EnumOfstedRating).map((rating, index) => {
             
             if (isNaN(Number(rating))) {
-              return <li>
-                <SchoolIcon
-                  ratingColor={EnumOfstedRatingColouring[rating]}
-                /> {rating}
+              return <li key={index}>
+                <SchoolIcon ratingColor={EnumOfstedRatingColouring[rating]} /> {rating}
               </li>
             }
 
@@ -30,11 +28,14 @@ const MapLegends: React.SFC = () => (
       <ul>
         <li><h5>School types</h5></li>
         {
-          Object.keys(EnumTypeOfSchool).map((type) => {
+          Object.keys(EnumTypeOfSchool).map((type, index) => {
             const elements = [];
             if (isNaN(Number(type))) {
               elements.push(
-                <li className="legend-school-types-item">
+                <li
+                  key={index}
+                  className="legend-school-types-item"
+                >
                   {type}:
                   <ul>
                     <li>{mapTypeOfSchool[initialSchoolTypeCount]}</li>
