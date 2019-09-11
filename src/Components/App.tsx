@@ -1,5 +1,5 @@
 import React, { useState} from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { WindowMap, School } from 'models';
 import { schoolAppInitMap } from 'utils/maps';
 import SchoolInfo from 'Components/SchoolInfo';
@@ -54,7 +54,10 @@ const App = () => {
   return (
     <Router>
       <section className="school-checker">
-        <h1 className="map-title">School Checker</h1>
+        <header>
+          <Link className="map-home-btn" to="/">Home</Link>
+          <h1 className="map-title">School Checker</h1>
+        </header>
         <AppNav
           schools={schoolsData}
           filters={mapFilters}

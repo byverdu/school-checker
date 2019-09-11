@@ -10,7 +10,7 @@ function loadMapMarkers(
   markers: google.maps.Marker[]
 ) {
   schools.forEach((school: School) => {
-    const tempSchool = SchoolMaker.create(school)
+    const tempSchool = SchoolMaker.create(school);
     const marker = createMarker(map, tempSchool);
     createSchoolPopup({
       position: new google.maps.LatLng(school.lat, school.lng),

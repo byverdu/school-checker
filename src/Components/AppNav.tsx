@@ -7,7 +7,6 @@ import { Link } from 'react-router-dom';
 
 const AppNav: SFC<{ schools: School[], filters: any[], prevLocation: string }> = ({ schools, filters, prevLocation }) => (
   <Fragment>
-    <Link to="/">Home</Link>
     <details>
       <summary>Primary Schools Details</summary>
       <SchoolsList
