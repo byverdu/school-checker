@@ -1,5 +1,6 @@
 import React, { SFC } from 'react';
-import { School, SchoolMaker, mapTypeOfSchool, EnumTypeOfSchool } from 'models';
+import { mapTypeOfSchool, EnumTypeOfSchool } from 'Models/Enums';
+import { School, SchoolMaker } from 'Models/School';
 
 const createMarkup = (__html: string) => ({
   __html

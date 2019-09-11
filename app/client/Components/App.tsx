@@ -1,13 +1,13 @@
 import React, { useState} from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { WindowMap, School } from 'models';
-import { schoolAppInitMap } from 'utils/maps';
+import { WindowMap, School } from 'Models/School';
+import { schoolAppInitMap } from 'UtilsUI/maps';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
 
 const schoolsData = require('shared-data/schools-data.json');
 
-import '../../static/styles.scss';
+import 'static/styles.scss';
 
 const mapFilters = [
   {

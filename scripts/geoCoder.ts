@@ -1,5 +1,5 @@
-import { School } from '../src/models';
-const schoolsData = require('../shared-data/schools-data.json');
+import { School } from 'Models/School';
+const schoolsData = require('shared-data/schools-data.json');
 
 window.localStorage.setItem('geoLocations', JSON.stringify([]));
 

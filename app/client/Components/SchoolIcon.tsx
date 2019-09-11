@@ -1,5 +1,5 @@
 import React from 'react';
-import { EnumOfstedRatingColouring } from 'models';
+import { EnumOfstedRatingColouring } from 'Models/Enums';
 
 interface SchoolIconProps {
   ratingColor: EnumOfstedRatingColouring;

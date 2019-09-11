@@ -1,6 +1,6 @@
 import React from 'react';
 import SchoolIcon from 'Components/SchoolIcon';
-import { EnumOfstedRating, EnumTypeOfSchool, EnumOfstedRatingColouring, mapTypeOfSchool } from 'models';
+import { EnumOfstedRating, EnumTypeOfSchool, EnumOfstedRatingColouring, mapTypeOfSchool } from 'Models/Enums';
 
 let initialSchoolTypeCount = 0;
 

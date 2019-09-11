@@ -1,5 +1,6 @@
 import React from 'react';
-import { School, EnumTypeOfSchool, mapTypeOfSchool } from 'models';
+import { School } from 'Models/School';
+import { EnumTypeOfSchool, mapTypeOfSchool } from 'Models/Enums';
 
 interface InfoWindowProps {
   school: School

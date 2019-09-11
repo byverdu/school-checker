@@ -1,5 +1,6 @@
 import React from 'react';
-import { School, EnumOfstedRating } from 'models';
+import { School } from 'Models/School';
+import { EnumOfstedRating } from 'Models/Enums';
 
 interface FilterCheckBoxesProps {
   schools: School[];

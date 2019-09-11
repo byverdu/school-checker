@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { School, EnumOfstedRatingColouring } from 'models';
+import { School } from 'Models/School';
+import { EnumOfstedRatingColouring } from 'Models/Enums';
 import InfoWindow from 'Components/InfoWindow';
 import SchoolIcon from 'Components/SchoolIcon';
 

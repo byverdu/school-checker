@@ -1,8 +1,8 @@
-import { SchoolMaker, School } from 'models';
-import { createMarker } from 'utils/marker';
-import createSchoolPopup from 'utils/popup';
+import { SchoolMaker, School } from 'Models/School';
+import { createMarker } from 'UtilsUI/marker';
+import createSchoolPopup from 'UtilsUI/popup';
 
-const paths = require('../../shared-data/polygon-data.json');
+const paths = require('shared-data/polygon-data.json');
 
 function loadMapMarkers(
   schools: School[],

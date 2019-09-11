@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-      "baseUrl": "./src",
+      "baseUrl": "./app",
       "paths": {
-        "shared-data/*": ["../shared-data/*"]
+        "shared-data/*": ["../shared-data/*"],
+        "Components/*": ["client/Components/*"],
+        "UtilsUI/*": ["client/Utils/*"],
+        "static/*": ["../static/*"],
       },
       "sourceMap": true,
       "noImplicitAny": false,

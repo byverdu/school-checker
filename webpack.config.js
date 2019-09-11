@@ -3,15 +3,15 @@ const CopyPlugin = require('copy-webpack-plugin');
 const { TsconfigPathsPlugin } = require('tsconfig-paths-webpack-plugin');
 
 module.exports = {
-  mode: "production",
+  mode: "development",
 
   output: {
     filename: 'bundle.js',
-    path: __dirname + '/app'
+    path: __dirname + '/build'
   },
 
-  devServer: {
-    contentBase: path.join(__dirname, 'app')
+  entry: {
+    app: [`${__dirname}/app/client/index.tsx`]
   },
 
   // Enable sourcemaps for debugging webpack's output.
@@ -23,7 +23,7 @@ module.exports = {
     plugins: [
       new TsconfigPathsPlugin({
         configFile: './tsconfig.json',
-        baseUrl: 'src'
+        baseUrl: 'app'
       })
     ],
     modules: [path.join(__dirname, 'node_modules')]
@@ -32,7 +32,7 @@ module.exports = {
   plugins: [
     new CopyPlugin([
       './static/index.html'
-    ]),
+    ])
   ],
 
   module: {
