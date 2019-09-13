@@ -5,7 +5,8 @@
         "shared-data/*": ["../shared-data/*"],
         "Components/*": ["client/Components/*"],
         "UtilsUI/*": ["client/Utils/*"],
-        "static/*": ["../static/*"],
+        "UtilsServer/*": ["server/Utils/*"],
+        "static/*": ["../static/*"]
       },
       "sourceMap": true,
       "noImplicitAny": false,
