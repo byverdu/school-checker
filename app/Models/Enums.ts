@@ -14,6 +14,13 @@ export enum EnumOfstedRatingColouring {
   Inadequate = '#CA3C25',
 }
 
+export enum EnumFlatRatingColouring {
+  New = '#517143',
+  Mid = '#FFCC00',
+  Half = '#F96D02',
+  Old = '#CA3C25',
+}
+
 export enum EnumTypeOfSchool {
   'Foundation school',
   'Maintained school',

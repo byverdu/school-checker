@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 
 const formInputs = [
   {
@@ -38,28 +37,12 @@ const formInputs = [
     defaultValue: '5',
     placeholder: 'Max bedroom'
   }
-]
+];
 
-function onSubmit(e) {
-  e.preventDefault();
-  const formValues = {}
-  
-  Array.from(
-    (document.querySelector('form') as HTMLFormElement).elements
-  ).forEach(elem => {
-    const inputElem = elem as HTMLInputElement
-    if (inputElem.name !== "" && inputElem.value !== "") {
-      formValues[inputElem.name] = inputElem.value
-    }
-  });
-
-  axios.post('flats', formValues)
-}
-
-const FlatsForm: React.SFC = () => (
+const FlatsForm: React.SFC<{onSubmit: (e) => void}> = ({onSubmit}) => (
   <form noValidate onSubmit={onSubmit}>
     {formInputs.map(input => <input {...input} />)}
-    <input type="submit" />
+    <input type="submit" className="xoxo" />
   </form>
 )
 

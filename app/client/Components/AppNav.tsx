@@ -5,9 +5,16 @@ import SchoolsList from 'Components/SchoolsList';
 import FlatsForm from 'Components/FlatsForm';
 import { School } from 'Models/School';
 
-const AppNav: SFC<{ schools: School[], filters: any[], prevLocation: string }> = ({ schools, filters, prevLocation }) => (
+interface AppNavProps {
+  schools: School[],
+  filters: any[],
+  prevLocation: string,
+  onFormSubmit: (e) => void
+}
+
+const AppNav: SFC<AppNavProps> = ({ schools, filters, prevLocation, onFormSubmit }) => (
   <Fragment>
-    <FlatsForm />
+    <FlatsForm onSubmit={onFormSubmit} />
     <details>
       <summary>Primary Schools Details</summary>
       <SchoolsList

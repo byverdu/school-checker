@@ -1,6 +1,8 @@
+import axios from 'axios';
 import React, { useState} from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { WindowMap, School } from 'Models/School';
+import { Flat, FlatMaker } from 'Models/Flat';
 import { schoolAppInitMap } from 'UtilsUI/maps';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
@@ -8,6 +10,8 @@ import AppNav from 'Components/AppNav';
 const schoolsData = require('shared-data/schools-data.json');
 
 import 'static/styles.scss';
+
+// https://github.com/lucifer1004/react-google-map
 
 const mapFilters = [
   {
@@ -45,11 +49,40 @@ const mapFilters = [
 
 const App = () => {
 
+  async function onSubmit(e) {
+    e.preventDefault();
+    const formValues = {}
+    
+    Array.from(
+      (document.querySelector('form') as HTMLFormElement).elements
+    ).forEach(elem => {
+      const inputElem = elem as HTMLInputElement
+      if (inputElem.name !== "" && inputElem.value !== "") {
+        formValues[inputElem.name] = inputElem.value
+      }
+    });
+
+    try {
+
+      const flatResponse = await axios.post('flats', formValues);
+      const tempFlats = flatResponse.data.flats.map(flat => FlatMaker.create(flat));
+
+      setFlats(tempFlats);
+
+    } catch (e) {
+      throw e;
+    }
+  
+  }
+
   (window as WindowMap).schoolAppInitMap = (function () {
     schoolAppInitMap(schoolsData);
   });
 
-  const [prevLocation, setPrevLocation] = useState('/');
+  const [prevLocation, setPrevLocation] = useState<string>('/');
+  const [flats, setFlats] = useState<Flat[]>([]);
+
+  console.log(flats);
 
   return (
     <Router>
@@ -62,6 +95,7 @@ const App = () => {
           schools={schoolsData}
           filters={mapFilters}
           prevLocation={prevLocation}
+          onFormSubmit={onSubmit}
         />
 
         <Route exact path="/" render={() => {
