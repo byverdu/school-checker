@@ -1,5 +1,5 @@
 import { SchoolMaker, School } from 'Models/School';
-import { createMarker } from 'UtilsUI/marker';
+import { createSchoolMarker } from 'UtilsUI/marker';
 import createSchoolPopup from 'UtilsUI/popup';
 
 const paths = require('shared-data/polygon-data.json');
@@ -11,7 +11,7 @@ function loadMapMarkers(
 ) {
   schools.forEach((school: School) => {
     const tempSchool = SchoolMaker.create(school);
-    const marker = createMarker(map, tempSchool);
+    const marker = createSchoolMarker(map, tempSchool);
     createSchoolPopup({
       position: new google.maps.LatLng(school.lat, school.lng),
       textContent: school.name,

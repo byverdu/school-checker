@@ -1,5 +1,5 @@
 import React from 'react';
-import SchoolIcon from 'Components/SchoolIcon';
+import SvgIcon from 'Components/SvgIcon';
 import { EnumOfstedRating, EnumTypeOfSchool, EnumOfstedRatingColouring, mapTypeOfSchool } from 'Models/Enums';
 
 let initialSchoolTypeCount = 0;
@@ -14,7 +14,7 @@ const MapLegends: React.SFC = () => (
             
             if (isNaN(Number(rating))) {
               return <li key={index}>
-                <SchoolIcon ratingColor={EnumOfstedRatingColouring[rating]} /> {rating}
+                <SvgIcon type="school" color={EnumOfstedRatingColouring[rating]} /> {rating}
               </li>
             }
 
