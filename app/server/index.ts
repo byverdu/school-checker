@@ -1,5 +1,5 @@
-import { getPaginatedFlats, BASE_API_URL } from "UtilsServer/index";
-
+import { getPaginatedFlats, BASE_API_URL } from "./Utils/index";
+import {Request} from 'express';
 const express = require('express')
 const app = express()
 const port = 3000
@@ -10,6 +10,8 @@ const webpackHotMiddleware = require('webpack-hot-middleware');
 const config = require('../../webpack.config');
 
 const devServerEnabled = true;
+
+app.use(express.json());
 
 if (devServerEnabled) {
     config.entry.app.unshift('webpack-hot-middleware/client?reload=true&timeout=1000');
@@ -32,14 +34,17 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/public/index.html')
 });
 
-app.post('/flats', (req, res) => {
+app.post('/flats', (req: Request, res) => {
+  const requestValues = Object.keys(req.body).map(value => `${value}=${req.body[value]}`).join('&');
+  const tempUrl = `${BASE_API_URL}&page=${1}&number_of_results=50&${requestValues}`;
+
   new Promise((resolve, reject) => {
-    getPaginatedFlats(`${BASE_API_URL}&page=${1}&place_name=putney&listing_type=rent&number_of_results=50`, [], resolve, reject)
+    getPaginatedFlats(tempUrl, [], resolve, reject)
   })
     .then(response => {
       res.jsonp({
         flats: response,
-        length: response
+        length: (response as any).length
       })
     })
 })

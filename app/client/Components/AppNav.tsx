@@ -2,10 +2,12 @@ import React, { Fragment , SFC } from 'react';
 import FilterCheckBoxes from 'Components/FilterCheckboxes';
 import MapLegends from 'Components/MapLegends';
 import SchoolsList from 'Components/SchoolsList';
+import FlatsForm from 'Components/FlatsForm';
 import { School } from 'Models/School';
 
 const AppNav: SFC<{ schools: School[], filters: any[], prevLocation: string }> = ({ schools, filters, prevLocation }) => (
   <Fragment>
+    <FlatsForm />
     <details>
       <summary>Primary Schools Details</summary>
       <SchoolsList
