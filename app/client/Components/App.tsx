@@ -7,6 +7,7 @@ import { Flat, FlatMaker } from 'Models/Flat';
 import { schoolAppInitMap } from 'UtilsUI/maps';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
+import { getMapFilters } from 'config';
 
 const schoolsData = require('shared-data/schools-data.json');
 
@@ -17,40 +18,6 @@ import createSchoolPopup from 'UtilsUI/popup';
 const GOOGLE_MAPS_API = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpuUN_YIh-R1chI7EcNG1ic62zoDPvj14';
 
 // https://github.com/lucifer1004/react-google-map
-
-const mapFilters = [
-  {
-    title: 'Ofsted Rating',
-    propToRender: 'ofstedRating'
-  },
-  {
-    title: 'Type of School',
-    propToRender: 'type'
-  },
-  {
-    title: 'Reading Score',
-    propToRender: 'statsReading'
-  },
-  {
-    title: 'Writing Score',
-    propToRender: 'statsWriting'
-  },
-  {
-    title: 'Maths Score',
-    propToRender: 'statsMaths'
-  },
-  {
-    title: 'Religions',
-    propToRender: 'religion'
-  },
-  {
-    title: 'Pupils Ages',
-    propToRender: 'age'
-  }
-].map(item => ({
-  ...item,
-  schools: schoolsData
-}));
 
 function loadMapMarkers(
   schools: School[],
@@ -143,7 +110,7 @@ const App = () => {
         </header>
         <AppNav
           schools={schoolsData}
-          filters={mapFilters}
+          filters={getMapFilters(schoolsData)}
           prevLocation={prevLocation}
           onFormSubmit={onSubmit}
         />
