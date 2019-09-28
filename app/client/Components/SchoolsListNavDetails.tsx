@@ -1,6 +1,7 @@
-import React, { useState, memo } from 'react';
+import React, { useState, memo, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { School } from 'Models/School';
+import { GoogleMapContext } from 'Components/App';
 
 interface SchoolsListProps {
   schools: School[];
@@ -8,13 +9,15 @@ interface SchoolsListProps {
 }
 
 const SchoolsListNavDetails: React.SFC<SchoolsListProps> = ({ schools, activeId }) => {
-
+  
+  const {setMapMarkers} = useContext(GoogleMapContext);
   const [filteredSchools, setFilteredSchools] = useState(schools);
   const onChangeHandler = (e: React.ChangeEvent) => {
     const value = (e.target as HTMLInputElement).value.toLowerCase();
     const newSchoolsSet = schools.filter(school => school.name.toLowerCase().includes(value));
 
     setFilteredSchools(newSchoolsSet);
+    setMapMarkers(newSchoolsSet);
   } 
     
   return (
@@ -42,4 +45,4 @@ const SchoolsListNavDetails: React.SFC<SchoolsListProps> = ({ schools, activeId 
   );
 }
 
-export default SchoolsListNavDetails;
+export default memo(SchoolsListNavDetails);

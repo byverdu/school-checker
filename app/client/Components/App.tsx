@@ -7,13 +7,11 @@ import { Flat, FlatMaker } from 'Models/Flat';
 import { mapInit, loadMapMarkers } from 'UtilsUI/maps';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
-import { mapFilters, GOOGLE_MAPS_API, ROOT_URL } from 'config';
+import { GOOGLE_MAPS_API, ROOT_URL } from 'config';
 
 const schoolsData = require('shared-data/schools-data.json');
 
 import 'static/styles.scss';
-
-// https://github.com/lucifer1004/react-google-map
 
 interface AppState {
   newLocation: string;
@@ -22,6 +20,20 @@ interface AppState {
   map: google.maps.Map | null;
   schools: School[];
 }
+
+interface AppContext {
+  markers: google.maps.Marker[];
+  map: google.maps.Map | null;
+  schools: School[];
+  setMapMarkers: (schools: School[]) => void
+}
+
+export const GoogleMapContext = React.createContext<AppContext>({
+  schools: [],
+  map: null,
+  markers: [],
+  setMapMarkers: null
+});
 
 export default class App extends React.Component<{}, AppState> {
   constructor (props){
@@ -37,6 +49,7 @@ export default class App extends React.Component<{}, AppState> {
 
     this.onHashChange = this.onHashChange.bind(this);
     this.onSubmitFlatForm = this.onSubmitFlatForm.bind(this);
+    this.setMapMarkers = this.setMapMarkers.bind(this);
 
     window.addEventListener("hashchange", this.onHashChange, false);
   }
@@ -108,38 +121,51 @@ export default class App extends React.Component<{}, AppState> {
     }
   }
 
+  setMapMarkers (schools: School[]) {
+    // delete previous markers
+    this.state.markers.forEach(marker => marker.setMap(null))
+
+    const {map} = this.state;
+    const markers = loadMapMarkers(schools, map);
+
+    this.setState({
+      markers
+    });
+  }
+
   render() {
-    const {schools, newLocation} = this.state;
+    const {schools, newLocation, map, markers} = this.state;
 
     return (
-      <Router>
-        <section className="school-checker">
-          <header>
-            <Link className="map-home-btn" to="/">Home</Link>
-            <h1 className="map-title">School Checker</h1>
-          </header>
-          <AppNav
-            schools={schools}
-            filters={mapFilters}
-            newLocation={newLocation}
-            onFormSubmit={this.onSubmitFlatForm}
-          />
-  
-          <Route exact path="/" render={() => {
-            if (newLocation !== ROOT_URL) {
-              window.location.reload();
+      <GoogleMapContext.Provider value={{schools, map, markers, setMapMarkers: this.setMapMarkers}}>
+        <Router>
+          <section className="school-checker">
+            <header>
+              <Link className="map-home-btn" to="/">Home</Link>
+              <h1 className="map-title">School Checker</h1>
+            </header>
+            <AppNav
+              schools={schools}
+              newLocation={newLocation}
+              onFormSubmit={this.onSubmitFlatForm}
+            />
+    
+            <Route exact path="/" render={() => {
+              if (newLocation !== ROOT_URL) {
+                window.location.reload();
+              }
+              return <div id="map"></div>
             }
-            return <div id="map"></div>
-          }
-          } />
-          <Route path="/school/:id" render={(props) => {
-            const { params: { id } } = props.match;
-            const school = schools.find((school: School) => school.id === id);
+            } />
+            <Route path="/school/:id" render={(props) => {
+              const { params: { id } } = props.match;
+              const school = schools.find((school: School) => school.id === id);
 
-            return <SchoolInfo school={school} />
-          }} />
-        </section>
-      </Router>
+              return <SchoolInfo school={school} />
+            }} />
+          </section>
+        </Router>
+      </GoogleMapContext.Provider>
     )
   }
 };
