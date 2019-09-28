@@ -7,7 +7,7 @@ interface SchoolsListProps {
   activeId: any;
 }
 
-const SchoolsList: React.SFC<SchoolsListProps> = ({ schools, activeId }) => {
+const SchoolsListNavDetails: React.SFC<SchoolsListProps> = ({ schools, activeId }) => {
 
   const [filteredSchools, setFilteredSchools] = useState(schools);
   const onChangeHandler = (e: React.ChangeEvent) => {
@@ -18,7 +18,8 @@ const SchoolsList: React.SFC<SchoolsListProps> = ({ schools, activeId }) => {
   } 
     
   return (
-    <>
+    <details>
+      <summary>Primary Schools Details</summary>
       <input className="school-link-filter" type="text" placeholder="Filter by name" onChange={onChangeHandler}/>
       <div className="school-link-container">
         {
@@ -37,8 +38,8 @@ const SchoolsList: React.SFC<SchoolsListProps> = ({ schools, activeId }) => {
           })
         }
       </div>
-    </>
+    </details>
   );
 }
 
-export default SchoolsList;
+export default SchoolsListNavDetails;

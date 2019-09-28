@@ -8,6 +8,11 @@ interface FilterCheckBoxesProps {
   title: string;
 }
 
+interface FilterCheckboxesNavDetails {
+  schools: School[];
+  filters: any[];
+}
+
 const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
   schools, propToRender, title
 }) => {
@@ -22,7 +27,7 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
         return school[propToRender]
     }
   });
-  const uniqueItems =[...new Set(items)];
+  const uniqueItems = [...new Set(items)];
 
   return (
     <div className="map-filters-container">
@@ -54,4 +59,24 @@ const FilterCheckBoxes: React.SFC<FilterCheckBoxesProps> = ({
   )
 }
 
-export default FilterCheckBoxes;
+const FilterCheckboxesNavDetails: React.SFC<FilterCheckboxesNavDetails> = ({ filters, schools }) => (
+  <details>
+    <summary>Select Filters</summary>
+    <div className="map-filters-wrapper">
+      {
+        filters.map((filter, index) => (
+          <FilterCheckBoxes
+            schools={schools}
+            key={index}
+            {...filter}
+          />
+        ))
+      }
+    </div>
+    <button id="clear-filters">
+      Clear All Filters
+        </button>
+  </details>
+)
+
+export default FilterCheckboxesNavDetails;
