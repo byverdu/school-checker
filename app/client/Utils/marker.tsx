@@ -5,7 +5,10 @@ import { EnumOfstedRatingColouring } from 'Models/Enums';
 import InfoWindow from 'Components/InfoWindow';
 import SvgIcon from 'Components/SvgIcon';
 
-export function createSchoolMarker(map: google.maps.Map, school: School) {
+export function createSchoolMarker(
+  map: google.maps.Map,
+  school: School
+) {
   const element = ReactDOMServer.renderToString(<InfoWindow school={school} />)
 
   var infowindow = new google.maps.InfoWindow();

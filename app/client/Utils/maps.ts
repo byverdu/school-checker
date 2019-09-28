@@ -6,10 +6,10 @@ const paths = require('shared-data/polygon-data.json');
 
 export function loadMapMarkers(
   schools: School[],
-  map: google.maps.Map,
-  markers: google.maps.Marker[]
-) {
-  schools.forEach((school: School) => {
+  map: google.maps.Map
+): google.maps.Marker[] {
+
+  return schools.map((school: School) => {
     const tempSchool = SchoolMaker.create(school);
     const marker = createSchoolMarker(map, tempSchool);
     createSchoolPopup({
@@ -18,12 +18,11 @@ export function loadMapMarkers(
       map
     });
 
-    markers.push(marker);
+    return marker;
   });
 }
 
 export function mapInit (
-  schools: School[],
   map: google.maps.Map
 ) {
   const wandsworthBoundariesLine = new google.maps.Polyline({
@@ -34,10 +33,6 @@ export function mapInit (
 
   // Draw the polygon on the desired map instance
   wandsworthBoundariesLine.setMap(map);
-
-  let markers: google.maps.Marker[] = [];
-
-  loadMapMarkers(schools, map, markers);
 }
 
 export function schoolAppInitMap(schools: School[]) {

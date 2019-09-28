@@ -2,41 +2,36 @@ export const GOOGLE_MAPS_API = 'https://maps.googleapis.com/maps/api/js?key=AIza
 
 export const ROOT_URL = 'http://localhost:3000/#/';
 
-export function getMapFilters (schools) {
-  return [
-    {
-      title: 'Ofsted Rating',
-      propToRender: 'ofstedRating'
-    },
-    {
-      title: 'Type of School',
-      propToRender: 'type'
-    },
-    {
-      title: 'Reading Score',
-      propToRender: 'statsReading'
-    },
-    {
-      title: 'Writing Score',
-      propToRender: 'statsWriting'
-    },
-    {
-      title: 'Maths Score',
-      propToRender: 'statsMaths'
-    },
-    {
-      title: 'Religions',
-      propToRender: 'religion'
-    },
-    {
-      title: 'Pupils Ages',
-      propToRender: 'age'
-    }
-  ].map(item => ({
-    ...item,
-    schools
-  }))
-}
+export const mapFilters = [
+  {
+    title: 'Ofsted Rating',
+    propToRender: 'ofstedRating'
+  },
+  {
+    title: 'Type of School',
+    propToRender: 'type'
+  },
+  {
+    title: 'Reading Score',
+    propToRender: 'statsReading'
+  },
+  {
+    title: 'Writing Score',
+    propToRender: 'statsWriting'
+  },
+  {
+    title: 'Maths Score',
+    propToRender: 'statsMaths'
+  },
+  {
+    title: 'Religions',
+    propToRender: 'religion'
+  },
+  {
+    title: 'Pupils Ages',
+    propToRender: 'age'
+  }
+];
 
 export const formInputs = [
   {

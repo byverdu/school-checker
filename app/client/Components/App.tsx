@@ -4,10 +4,10 @@ import loadjs from 'loadjs'
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import { School } from 'Models/School';
 import { Flat, FlatMaker } from 'Models/Flat';
-import { mapInit } from 'UtilsUI/maps';
+import { mapInit, loadMapMarkers } from 'UtilsUI/maps';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
-import { getMapFilters, GOOGLE_MAPS_API, ROOT_URL } from 'config';
+import { mapFilters, GOOGLE_MAPS_API, ROOT_URL } from 'config';
 
 const schoolsData = require('shared-data/schools-data.json');
 
@@ -57,10 +57,12 @@ export default class App extends React.Component<{}, AppState> {
             zoom: zoomMap
           }
         );
+        const markers = loadMapMarkers(schoolsData, map);
 
         this.setState({
-          map
-        }, () => mapInit(this.state.schools, map));
+          map,
+          markers
+        }, () => mapInit(map));
       },
       error: () => {
         loadjs.reset()
@@ -118,7 +120,7 @@ export default class App extends React.Component<{}, AppState> {
           </header>
           <AppNav
             schools={schools}
-            filters={getMapFilters(schools)}
+            filters={mapFilters}
             newLocation={newLocation}
             onFormSubmit={this.onSubmitFlatForm}
           />
