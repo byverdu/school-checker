@@ -1,3 +1,7 @@
+export const GOOGLE_MAPS_API = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpuUN_YIh-R1chI7EcNG1ic62zoDPvj14';
+
+export const ROOT_URL = 'http://localhost:3000/#/';
+
 export function getMapFilters (schools) {
   return [
     {

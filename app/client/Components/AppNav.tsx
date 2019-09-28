@@ -4,25 +4,26 @@ import MapLegends from 'Components/MapLegends';
 import SchoolsList from 'Components/SchoolsList';
 import FlatsForm from 'Components/FlatsForm';
 import { School } from 'Models/School';
+import { ROOT_URL } from 'config';
 
 interface AppNavProps {
   schools: School[],
   filters: any[],
-  prevLocation: string,
+  newLocation: string,
   onFormSubmit: (e) => void
 }
 
-const AppNav: SFC<AppNavProps> = ({ schools, filters, prevLocation, onFormSubmit }) => (
+const AppNav: SFC<AppNavProps> = ({ schools, filters, newLocation, onFormSubmit }) => (
   <Fragment>
     <FlatsForm onSubmit={onFormSubmit} />
     <details>
       <summary>Primary Schools Details</summary>
       <SchoolsList
         schools={schools}
-        activeId={prevLocation.split('/').pop()}
+        activeId={newLocation.split('/').pop()}
       />
     </details>
-    {prevLocation === '/' && (
+    {newLocation === ROOT_URL && (
       <Fragment>
         <details>
       <summary>Map Legends</summary>

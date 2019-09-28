@@ -116,7 +116,3 @@ export interface Chart {
     england: number;
   }
 }
-
-export interface WindowMap extends Window {
-  schoolAppInitMap: Function
-}

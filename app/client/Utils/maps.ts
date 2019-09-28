@@ -4,7 +4,7 @@ import createSchoolPopup from 'UtilsUI/popup';
 
 const paths = require('shared-data/polygon-data.json');
 
-function loadMapMarkers(
+export function loadMapMarkers(
   schools: School[],
   map: google.maps.Map,
   markers: google.maps.Marker[]
@@ -20,6 +20,24 @@ function loadMapMarkers(
 
     markers.push(marker);
   });
+}
+
+export function mapInit (
+  schools: School[],
+  map: google.maps.Map
+) {
+  const wandsworthBoundariesLine = new google.maps.Polyline({
+    path: paths,
+    strokeColor: '#EF476F',
+    strokeWeight: 4,
+  });
+
+  // Draw the polygon on the desired map instance
+  wandsworthBoundariesLine.setMap(map);
+
+  let markers: google.maps.Marker[] = [];
+
+  loadMapMarkers(schools, map, markers);
 }
 
 export function schoolAppInitMap(schools: School[]) {
