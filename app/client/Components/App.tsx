@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 import axios from 'axios';
 import loadjs from 'loadjs'
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
@@ -8,6 +8,7 @@ import { mapInit, loadMapMarkers } from 'UtilsUI/maps';
 import ErrorBoundary from 'Components/ErrorBoundary';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
+import MapWrapper from 'Components/MapWrapper';
 import { GOOGLE_MAPS_API, ROOT_URL, DEFAULT_LAT_LNG, DEFAULT_ZOOM } from 'config';
 
 const schoolsData = require('shared-data/schools-data.json');
@@ -37,7 +38,8 @@ export const GoogleMapContext = React.createContext<AppContext>({
 });
 
 export default class App extends React.Component<{}, AppState> {
-  constructor (props){
+  searchInputBox;
+  constructor(props) {
     super(props);
 
     this.state = {
@@ -52,6 +54,8 @@ export default class App extends React.Component<{}, AppState> {
     this.onSubmitFlatForm = this.onSubmitFlatForm.bind(this);
     this.setMapMarkers = this.setMapMarkers.bind(this);
 
+    this.searchInputBox = createRef<HTMLInputElement>();
+
     window.addEventListener("hashchange", this.onHashChange, false);
   }
 
@@ -59,7 +63,7 @@ export default class App extends React.Component<{}, AppState> {
     if (!loadjs.isDefined('gmap')) {
       loadjs(GOOGLE_MAPS_API, 'gmap')
     }
-    
+
     loadjs.ready('gmap', {
       success: () => {
         const LatLng: google.maps.LatLng = new google.maps.LatLng(DEFAULT_LAT_LNG);
@@ -67,7 +71,8 @@ export default class App extends React.Component<{}, AppState> {
           document.getElementById('map'),
           {
             center: LatLng,
-            zoom: DEFAULT_ZOOM
+            zoom: DEFAULT_ZOOM,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
           }
         );
         const markers = loadMapMarkers(schoolsData, map);
@@ -75,7 +80,7 @@ export default class App extends React.Component<{}, AppState> {
         this.setState({
           map,
           markers
-        }, () => mapInit(map));
+        }, () => mapInit(map, this.searchInputBox.current));
       },
       error: () => {
         loadjs.reset()
@@ -88,13 +93,13 @@ export default class App extends React.Component<{}, AppState> {
     window.removeEventListener('hashchange', this.onHashChange);
   }
 
-  onHashChange(e:HashChangeEvent) {
+  onHashChange(e: HashChangeEvent) {
     this.setState({
       newLocation: e.newURL
     });
   }
 
-  async onSubmitFlatForm (e) {
+  async onSubmitFlatForm(e) {
     e.preventDefault();
     const formValues = {}
 
@@ -114,18 +119,18 @@ export default class App extends React.Component<{}, AppState> {
 
       console.table(tempFlats);
 
-      this.setState({flats: tempFlats});
+      this.setState({ flats: tempFlats });
 
     } catch (e) {
       throw e;
     }
   }
 
-  setMapMarkers (schools: School[]) {
+  setMapMarkers(schools: School[]) {
     // delete previous markers
     this.state.markers.forEach(marker => marker.setMap(null))
 
-    const {map} = this.state;
+    const { map } = this.state;
     const markers = loadMapMarkers(schools, map);
 
     this.setState({
@@ -134,7 +139,7 @@ export default class App extends React.Component<{}, AppState> {
   }
 
   render() {
-    const {schools, newLocation, map, markers} = this.state;
+    const { schools, newLocation, map, markers } = this.state;
 
     return (
       <ErrorBoundary>
@@ -157,16 +162,16 @@ export default class App extends React.Component<{}, AppState> {
                 }
                 return <MapWrapper ref={this.searchInputBox} />
               }
-            } />
-            <Route path="/school/:id" render={(props) => {
-              const { params: { id } } = props.match;
-              const school = schools.find((school: School) => school.id === id);
+              } />
+              <Route path="/school/:id" render={(props) => {
+                const { params: { id } } = props.match;
+                const school = schools.find((school: School) => school.id === id);
 
-              return <SchoolInfo school={school} />
-            }} />
-          </section>
-        </Router>
-      </GoogleMapContext.Provider>
+                return <SchoolInfo school={school} />
+              }} />
+            </section>
+          </Router>
+        </GoogleMapContext.Provider>
       </ErrorBoundary>
     )
   }

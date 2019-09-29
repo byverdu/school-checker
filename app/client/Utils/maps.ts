@@ -1,5 +1,5 @@
 import { SchoolMaker, School } from 'Models/School';
-import { createSchoolMarker } from 'UtilsUI/marker';
+import { createSchoolMarker } from 'UtilsUI/schoolMarker';
 import createSchoolPopup from 'UtilsUI/popup';
 
 const paths = require('shared-data/polygon-data.json');
@@ -23,7 +23,8 @@ export function loadMapMarkers(
 }
 
 export function mapInit (
-  map: google.maps.Map
+  map: google.maps.Map,
+  inputSearchBox: HTMLInputElement
 ) {
   const wandsworthBoundariesLine = new google.maps.Polyline({
     path: paths,
@@ -33,4 +34,9 @@ export function mapInit (
 
   // Draw the polygon on the desired map instance
   wandsworthBoundariesLine.setMap(map);
+
+  console.log(inputSearchBox)
+
+  var searchBox = new google.maps.places.SearchBox(inputSearchBox);
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(inputSearchBox);
 }
