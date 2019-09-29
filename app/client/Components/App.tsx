@@ -18,13 +18,13 @@ import 'static/styles.scss';
 interface AppState {
   newLocation: string;
   flats: Flat[];
-  markers: google.maps.Marker[];
+  schoolMarkers: google.maps.Marker[];
   map: google.maps.Map | null;
   schools: School[];
 }
 
 interface AppContext {
-  markers: google.maps.Marker[];
+  schoolMarkers: google.maps.Marker[];
   map: google.maps.Map | null;
   schools: School[];
   setMapMarkers: (schools: School[]) => void
@@ -33,7 +33,7 @@ interface AppContext {
 export const GoogleMapContext = React.createContext<AppContext>({
   schools: [],
   map: null,
-  markers: [],
+  schoolMarkers: [],
   setMapMarkers: null
 });
 
@@ -45,7 +45,7 @@ export default class App extends React.Component<{}, AppState> {
     this.state = {
       newLocation: ROOT_URL,
       flats: [],
-      markers: [],
+      schoolMarkers: [],
       map: null,
       schools: schoolsData
     }
@@ -75,12 +75,12 @@ export default class App extends React.Component<{}, AppState> {
             mapTypeId: google.maps.MapTypeId.ROADMAP
           }
         );
-        const markers = loadMapMarkers(schoolsData, map);
+        const schoolMarkers = loadMapMarkers(schoolsData, map);
 
         this.setState({
           map,
-          markers
-        }, () => mapInit(map, markers, this.searchInputBox.current));
+          schoolMarkers
+        }, () => mapInit(map, schoolMarkers, this.searchInputBox.current));
       },
       error: () => {
         loadjs.reset()
@@ -128,26 +128,26 @@ export default class App extends React.Component<{}, AppState> {
 
   setMapMarkers(schools: School[]) {
     // delete previous markers
-    this.state.markers.forEach(marker => {
+    this.state.schoolMarkers.forEach(marker => {
       if (!marker.hasOwnProperty('id')) {
         marker.setMap(null);
       }
     })
 
     const { map } = this.state;
-    const markers = loadMapMarkers(schools, map);
+    const schoolMarkers = loadMapMarkers(schools, map);
 
     this.setState({
-      markers
+      schoolMarkers
     });
   }
 
   render() {
-    const { schools, newLocation, map, markers } = this.state;
+    const { schools, newLocation, map, schoolMarkers } = this.state;
 
     return (
       <ErrorBoundary>
-        <GoogleMapContext.Provider value={{ schools, map, markers, setMapMarkers: this.setMapMarkers }}>
+        <GoogleMapContext.Provider value={{ schools, map, schoolMarkers, setMapMarkers: this.setMapMarkers }}>
           <Router>
             <section className="school-checker">
               <header>
