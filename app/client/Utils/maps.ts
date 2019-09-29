@@ -1,5 +1,6 @@
 import { SchoolMaker, School } from 'Models/School';
 import { createSchoolMarker } from 'UtilsUI/schoolMarker';
+import { createLocationMarker } from 'UtilsUI/locationMarker';
 import createSchoolPopup from 'UtilsUI/popup';
 
 const paths = require('shared-data/polygon-data.json');
@@ -24,8 +25,11 @@ export function loadMapMarkers(
 
 export function mapInit (
   map: google.maps.Map,
+  markers: google.maps.Marker[],
   inputSearchBox: HTMLInputElement
 ) {
+  const searchBox = new google.maps.places.SearchBox(inputSearchBox);
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(inputSearchBox);
   const wandsworthBoundariesLine = new google.maps.Polyline({
     path: paths,
     strokeColor: '#EF476F',
@@ -35,8 +39,6 @@ export function mapInit (
   // Draw the polygon on the desired map instance
   wandsworthBoundariesLine.setMap(map);
 
-  console.log(inputSearchBox)
-
-  var searchBox = new google.maps.places.SearchBox(inputSearchBox);
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(inputSearchBox);
+  // Add location marker when search is done
+  createLocationMarker(map, markers, searchBox);
 }

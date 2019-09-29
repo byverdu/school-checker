@@ -9,7 +9,7 @@ const MapWrapper = forwardRef((props: Props, ref: Ref) => (
       ref={ref}
       className="search-box-controls"
       type="text"
-      placeholder="Search Box"
+      placeholder="Search Address"
       style={{
         visibility: 'hidden',
         position: 'absolute'

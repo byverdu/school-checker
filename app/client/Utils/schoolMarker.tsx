@@ -54,8 +54,5 @@ export function createSchoolMarker(
     infowindow.open(map, marker);
   });
 
-    // google.maps.event.addListener(marker, "dblclick", function (point) {marker.setMap(null)});
-
-
   return marker;
 }

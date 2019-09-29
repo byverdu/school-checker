@@ -80,7 +80,7 @@ export default class App extends React.Component<{}, AppState> {
         this.setState({
           map,
           markers
-        }, () => mapInit(map, this.searchInputBox.current));
+        }, () => mapInit(map, markers, this.searchInputBox.current));
       },
       error: () => {
         loadjs.reset()
@@ -128,7 +128,11 @@ export default class App extends React.Component<{}, AppState> {
 
   setMapMarkers(schools: School[]) {
     // delete previous markers
-    this.state.markers.forEach(marker => marker.setMap(null))
+    this.state.markers.forEach(marker => {
+      if (!marker.hasOwnProperty('id')) {
+        marker.setMap(null);
+      }
+    })
 
     const { map } = this.state;
     const markers = loadMapMarkers(schools, map);
