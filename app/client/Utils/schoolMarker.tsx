@@ -9,6 +9,7 @@ export function createSchoolMarker(
   map: google.maps.Map,
   school: School
 ) {
+
   const element = ReactDOMServer.renderToString(<InfoWindow school={school} />)
 
   var infowindow = new google.maps.InfoWindow();
@@ -52,6 +53,9 @@ export function createSchoolMarker(
     infowindow.setContent(element);
     infowindow.open(map, marker);
   });
+
+    // google.maps.event.addListener(marker, "dblclick", function (point) {marker.setMap(null)});
+
 
   return marker;
 }
