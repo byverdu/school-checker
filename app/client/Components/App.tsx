@@ -5,6 +5,7 @@ import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import { School } from 'Models/School';
 import { Flat, FlatMaker } from 'Models/Flat';
 import { mapInit, loadMapMarkers } from 'UtilsUI/maps';
+import ErrorBoundary from 'Components/ErrorBoundary';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
 import { GOOGLE_MAPS_API, ROOT_URL, DEFAULT_LAT_LNG, DEFAULT_ZOOM } from 'config';
@@ -136,23 +137,24 @@ export default class App extends React.Component<{}, AppState> {
     const {schools, newLocation, map, markers} = this.state;
 
     return (
-      <GoogleMapContext.Provider value={{schools, map, markers, setMapMarkers: this.setMapMarkers}}>
-        <Router>
-          <section className="school-checker">
-            <header>
-              <Link className="map-home-btn" to="/">Home</Link>
-              <h1 className="map-title">School Checker</h1>
-            </header>
-            <AppNav
-              schools={schools}
-              newLocation={newLocation}
-              onFormSubmit={this.onSubmitFlatForm}
-            />
-    
-            <Route exact path="/" render={() => {
-              if (newLocation !== ROOT_URL) {
-                window.location.reload();
-              }
+      <ErrorBoundary>
+        <GoogleMapContext.Provider value={{ schools, map, markers, setMapMarkers: this.setMapMarkers }}>
+          <Router>
+            <section className="school-checker">
+              <header>
+                <Link className="map-home-btn" to="/">Home</Link>
+                <h1 className="map-title">School Checker</h1>
+              </header>
+              <AppNav
+                schools={schools}
+                newLocation={newLocation}
+                onFormSubmit={this.onSubmitFlatForm}
+              />
+
+              <Route exact path="/" render={() => {
+                if (newLocation !== ROOT_URL) {
+                  window.location.reload();
+                }
               return <div id="map"></div>
             }
             } />
@@ -165,6 +167,7 @@ export default class App extends React.Component<{}, AppState> {
           </section>
         </Router>
       </GoogleMapContext.Provider>
+      </ErrorBoundary>
     )
   }
 };
