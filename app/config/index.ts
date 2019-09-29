@@ -2,6 +2,13 @@ export const GOOGLE_MAPS_API = 'https://maps.googleapis.com/maps/api/js?key=AIza
 
 export const ROOT_URL = 'http://localhost:3000/#/';
 
+export const DEFAULT_LAT_LNG = {
+  lat: 51.4372907,
+  lng: -0.2058498999999756
+};
+
+export const DEFAULT_ZOOM = 14;
+
 export const mapFilters = [
   {
     title: 'Ofsted Rating',

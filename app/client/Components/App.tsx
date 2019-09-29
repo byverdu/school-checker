@@ -7,7 +7,7 @@ import { Flat, FlatMaker } from 'Models/Flat';
 import { mapInit, loadMapMarkers } from 'UtilsUI/maps';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
-import { GOOGLE_MAPS_API, ROOT_URL } from 'config';
+import { GOOGLE_MAPS_API, ROOT_URL, DEFAULT_LAT_LNG, DEFAULT_ZOOM } from 'config';
 
 const schoolsData = require('shared-data/schools-data.json');
 
@@ -61,13 +61,12 @@ export default class App extends React.Component<{}, AppState> {
     
     loadjs.ready('gmap', {
       success: () => {
-        const LatLng: google.maps.LatLng = new google.maps.LatLng(51.4372907, -0.2058498999999756);
-        const zoomMap = 14;
+        const LatLng: google.maps.LatLng = new google.maps.LatLng(DEFAULT_LAT_LNG);
         const map = new google.maps.Map(
           document.getElementById('map'),
           {
             center: LatLng,
-            zoom: zoomMap
+            zoom: DEFAULT_ZOOM
           }
         );
         const markers = loadMapMarkers(schoolsData, map);
