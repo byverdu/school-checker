@@ -174,13 +174,16 @@ details {
 
   &-school-types {
     flex-basis: 80%;
+
+    li {
+      list-style: none;
+    }
   }
   
   &-ratings li svg {
     margin-right: 10px;
   }
 
-  &-school-types li,
   &-ratings li {
     display: flex;
     align-items: center;
@@ -189,6 +192,12 @@ details {
 
   &-school-types-item {
     border-bottom: 1px solid;
+  }
+
+  &-school-types li:first-of-type,
+  &-ratings li:first-of-type {
+    color: #0A81D1;
+    font-size: 24px;
   }
 }
 
@@ -273,7 +282,7 @@ details {
     width: 80%;
     margin: 20px auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
   }
 
   &-label {

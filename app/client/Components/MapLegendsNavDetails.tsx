@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {memo} from 'react';
 import SvgIcon from 'Components/SvgIcon';
 import { EnumOfstedRating, EnumTypeOfSchool, EnumOfstedRatingColouring, mapTypeOfSchool } from 'Models/Enums';
 
@@ -32,16 +32,15 @@ const MapLegends: React.SFC = () => (
           {
             Object.keys(EnumTypeOfSchool).map((type, index) => {
               const elements = [];
+              console.log(mapTypeOfSchool[initialSchoolTypeCount])
               if (isNaN(Number(type))) {
                 elements.push(
                   <li
                     key={index}
                     className="legend-school-types-item"
                   >
-                    {type}:
-                  <ul>
-                      <li>{mapTypeOfSchool[initialSchoolTypeCount]}</li>
-                    </ul>
+                    <h4>{type}:</h4>
+                    <p>{mapTypeOfSchool[initialSchoolTypeCount]}</p>
                   </li>
                 );
               }
@@ -60,4 +59,4 @@ const MapLegends: React.SFC = () => (
   </details>
 );
 
-export default MapLegends;
+export default memo(MapLegends);
