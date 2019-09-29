@@ -155,8 +155,8 @@ export default class App extends React.Component<{}, AppState> {
                 if (newLocation !== ROOT_URL) {
                   window.location.reload();
                 }
-              return <div id="map"></div>
-            }
+                return <MapWrapper ref={this.searchInputBox} />
+              }
             } />
             <Route path="/school/:id" render={(props) => {
               const { params: { id } } = props.match;
