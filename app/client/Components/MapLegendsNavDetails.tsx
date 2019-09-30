@@ -32,7 +32,7 @@ const MapLegends: React.SFC = () => (
           {
             Object.keys(EnumTypeOfSchool).map((type, index) => {
               const elements = [];
-              console.log(mapTypeOfSchool[initialSchoolTypeCount])
+
               if (isNaN(Number(type))) {
                 elements.push(
                   <li

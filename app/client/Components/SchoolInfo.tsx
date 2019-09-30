@@ -43,7 +43,7 @@ const schoolInfoRenderer = (school: School): React.ReactElement[] => {
   }
 
   return Object.keys(rest).map((item) => (
-    <div className="school-info-container-item">
+    <div key={item} className="school-info-container-item">
       <h4>{item ? getTermValue(item) : null}</h4>
       <p>{getDescriptionValue(item)}</p>
     </div>

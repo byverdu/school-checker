@@ -33,6 +33,12 @@ export enum EnumTypeOfSchool {
   'Free school - Mainstream'
 }
 
+export type MarkerType = 'school' | 'flat' | 'location';
+
+export interface CustomMarkerOpts extends google.maps.MarkerOptions {
+  id?: MarkerType;
+}
+
 export const mapTypeOfSchool = {
   0: `Foundation schools are maintained schools which differ from other maintained schools in that the governing body employs the staff, most commonly holds the land and buildings, and is responsible for admissions.
 
