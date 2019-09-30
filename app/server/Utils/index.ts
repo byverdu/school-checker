@@ -12,10 +12,11 @@ export async function getPaginatedFlats (url, flats, resolve, reject) {
     const fetchedFlats = flats.concat(response.data.response.listings)
     if (response.data.response.total_pages > pageNumber) {
       pageNumber += 1;
-      newUrl.searchParams.set('page', `${pageNumber}`)
+      newUrl.searchParams.set('page', `${pageNumber}`);
 
       getPaginatedFlats(newUrl.href, fetchedFlats, resolve, reject)
       } else {
+        pageNumber = 0;
         resolve(fetchedFlats)
       }
     })
