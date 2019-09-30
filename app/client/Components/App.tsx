@@ -21,6 +21,7 @@ interface AppState {
   schoolMarkers: google.maps.Marker[];
   map: google.maps.Map | null;
   schools: School[];
+  triggerMapLoad: boolean;
 }
 
 interface AppContext {
@@ -47,12 +48,14 @@ export default class App extends React.Component<{}, AppState> {
       flats: [],
       schoolMarkers: [],
       map: null,
-      schools: schoolsData
+      schools: schoolsData,
+      triggerMapLoad: false
     }
 
     this.onHashChange = this.onHashChange.bind(this);
     this.onSubmitFlatForm = this.onSubmitFlatForm.bind(this);
     this.setMapMarkers = this.setMapMarkers.bind(this);
+    this.loadMap = this.loadMap.bind(this);
 
     this.searchInputBox = createRef<HTMLInputElement>();
 
@@ -66,21 +69,42 @@ export default class App extends React.Component<{}, AppState> {
 
     loadjs.ready('gmap', {
       success: () => {
-        const LatLng: google.maps.LatLng = new google.maps.LatLng(DEFAULT_LAT_LNG);
-        const map = new google.maps.Map(
-          document.getElementById('map'),
-          {
-            center: LatLng,
-            zoom: DEFAULT_ZOOM,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-          }
-        );
-        const schoolMarkers = loadMapMarkers(schoolsData, map);
+        this.setState({ triggerMapLoad: true });
+      },
+      error: () => {
+        loadjs.reset()
+        console.error('Unable to fetch Google Map sdk')
+      },
+    })
+  }
 
-        this.setState({
-          map,
-          schoolMarkers
-        }, () => mapInit(map, schoolMarkers, this.searchInputBox.current));
+  componentDidUpdate() {
+    if (this.state.triggerMapLoad && window.location.href === ROOT_URL) {
+      this.loadMap();
+    }
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('hashchange', this.onHashChange);
+  }
+
+  loadMap() {
+    const LatLng: google.maps.LatLng = new google.maps.LatLng(DEFAULT_LAT_LNG);
+    const map = new google.maps.Map(
+      document.getElementById('map'),
+      {
+        center: LatLng,
+        zoom: DEFAULT_ZOOM,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      }
+    );
+    const schoolMarkers = loadMapMarkers(schoolsData, map);
+
+    this.setState({
+      map,
+      schoolMarkers,
+      triggerMapLoad: false
+    }, () => mapInit(map, schoolMarkers, this.searchInputBox.current));
       },
       error: () => {
         loadjs.reset()
