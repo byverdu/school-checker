@@ -2,23 +2,13 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { EnumOfstedRatingColouring } from 'Models/Enums';
 import SvgIcon from 'Components/SvgIcon';
-
-interface CustomMarkerOpts extends google.maps.MarkerOptions {
-  id: number;
-}
+import customMarkerWrapper from './customMarkerWrapper';
 
 export function createLocationMarker(
   map: google.maps.Map,
   markers: google.maps.Marker[],
   searchBox: google.maps.places.SearchBox
 ) {
-
-  class CustomMarker extends google.maps.Marker {
-    id: number;
-    constructor(options: CustomMarkerOpts) {
-      super(options);
-    }
-  }
 
   const svg = ReactDOMServer.renderToString(
     <SvgIcon
@@ -42,8 +32,8 @@ export function createLocationMarker(
         return;
       }
 
-      const marker = new CustomMarker({
-        id: 0,
+      const marker = customMarkerWrapper({
+        id: 'location',
         map: map,
         icon: {
           url: 'data:image/svg+xml;charset=UTF-8;base64,' + btoa(svg),

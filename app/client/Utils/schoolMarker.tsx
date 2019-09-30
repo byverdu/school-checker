@@ -4,6 +4,7 @@ import { School } from 'Models/School';
 import { EnumOfstedRatingColouring } from 'Models/Enums';
 import InfoWindow from 'Components/InfoWindow';
 import SvgIcon from 'Components/SvgIcon';
+import customMarkerWrapper from './customMarkerWrapper';
 
 export function createSchoolMarker(
   map: google.maps.Map,
@@ -12,7 +13,7 @@ export function createSchoolMarker(
 
   const element = ReactDOMServer.renderToString(<InfoWindow school={school} />)
 
-  var infowindow = new google.maps.InfoWindow();
+  const infowindow = new google.maps.InfoWindow();
 
   const svg = ReactDOMServer.renderToString(
     <SvgIcon
@@ -21,7 +22,8 @@ export function createSchoolMarker(
     />
   );
 
-  var marker = new google.maps.Marker({
+  const marker = customMarkerWrapper({
+    id: 'school',
     position: new google.maps.LatLng(school.lat, school.lng),
     map: map,
     icon: {
@@ -30,7 +32,7 @@ export function createSchoolMarker(
     },
     title: school.name
   });
-  var cityCircle;
+  let cityCircle;
 
   google.maps.event.addListener(marker, 'mouseover', function () {
     cityCircle = new google.maps.Circle({

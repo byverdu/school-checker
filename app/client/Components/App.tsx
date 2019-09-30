@@ -153,7 +153,7 @@ export default class App extends React.Component<{}, AppState> {
   setMapMarkers(schools: School[]) {
     // delete previous markers
     this.state.schoolMarkers.forEach(marker => {
-      if (!marker.hasOwnProperty('id')) {
+      if ((marker as CustomMarkerOpts).id === 'school') {
         marker.setMap(null);
       }
     })
