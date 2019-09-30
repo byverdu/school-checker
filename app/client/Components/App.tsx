@@ -4,12 +4,13 @@ import loadjs from 'loadjs'
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import { School } from 'Models/School';
 import { Flat, FlatMaker } from 'Models/Flat';
-import { mapInit, loadMapMarkers } from 'UtilsUI/maps';
+import { mapInit, loadMapMarkers, loadFlatMarkers } from 'UtilsUI/maps';
 import ErrorBoundary from 'Components/ErrorBoundary';
 import SchoolInfo from 'Components/SchoolInfo';
 import AppNav from 'Components/AppNav';
 import MapWrapper from 'Components/MapWrapper';
 import { GOOGLE_MAPS_API, ROOT_URL, DEFAULT_LAT_LNG, DEFAULT_ZOOM } from 'config';
+import { CustomMarkerOpts } from 'Models/Enums';
 
 const schoolsData = require('shared-data/schools-data.json');
 
@@ -19,6 +20,7 @@ interface AppState {
   newLocation: string;
   flats: Flat[];
   schoolMarkers: google.maps.Marker[];
+  flatMarkers: google.maps.Marker[];
   map: google.maps.Map | null;
   schools: School[];
   triggerMapLoad: boolean;
@@ -47,6 +49,7 @@ export default class App extends React.Component<{}, AppState> {
       newLocation: ROOT_URL,
       flats: [],
       schoolMarkers: [],
+      flatMarkers: [],
       map: null,
       schools: schoolsData,
       triggerMapLoad: false
@@ -105,16 +108,6 @@ export default class App extends React.Component<{}, AppState> {
       schoolMarkers,
       triggerMapLoad: false
     }, () => mapInit(map, schoolMarkers, this.searchInputBox.current));
-      },
-      error: () => {
-        loadjs.reset()
-        console.error('Unable to fetch Google Map sdk')
-      },
-    })
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('hashchange', this.onHashChange);
   }
 
   onHashChange(e: HashChangeEvent) {
@@ -139,11 +132,12 @@ export default class App extends React.Component<{}, AppState> {
     try {
 
       const flatResponse = await axios.post('flats', formValues);
-      const tempFlats = flatResponse.data.flats.map(flat => FlatMaker.create(flat));
+      const flats = flatResponse.data.flats.map(flat => FlatMaker.create(flat));
+      const flatMarkers = loadFlatMarkers(flats, this.state.map);
 
-      console.table(tempFlats);
+      console.table(flats);
 
-      this.setState({ flats: tempFlats });
+      this.setState({ flats });
 
     } catch (e) {
       throw e;

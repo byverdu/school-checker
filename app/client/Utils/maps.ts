@@ -1,7 +1,9 @@
 import { SchoolMaker, School } from 'Models/School';
 import { createSchoolMarker } from 'UtilsUI/schoolMarker';
+import { createFlatMarker } from 'UtilsUI/flatMarker';
 import { createLocationMarker } from 'UtilsUI/locationMarker';
 import createSchoolPopup from 'UtilsUI/popup';
+import { Flat, FlatMaker } from 'Models/Flat';
 
 const paths = require('shared-data/polygon-data.json');
 
@@ -18,6 +20,24 @@ export function loadMapMarkers(
       textContent: school.name,
       map
     });
+
+    return marker;
+  });
+}
+
+export function loadFlatMarkers(
+  flats: Flat[],
+  map: google.maps.Map
+): google.maps.Marker[] {
+
+  return flats.map((flat: Flat) => {
+    // const flatSchool = FlatMaker.create(flat);
+    const marker = createFlatMarker(map, flat);
+    // createSchoolPopup({
+    //   position: new google.maps.LatLng(school.lat, school.lng),
+    //   textContent: school.name,
+    //   map
+    // });
 
     return marker;
   });
