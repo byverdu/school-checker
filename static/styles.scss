@@ -7,6 +7,16 @@
 
 #map {background: transparent url(loader.svg) no-repeat center center;}
 
+.map-loader {
+  background: rgba(0,0,0, .6) url(loader.svg) no-repeat center center;
+  position: absolute;
+  height: 100%;
+  z-index: 99999;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
 /* Optional: Makes the sample page fill the window. */
 html,
 body {
@@ -303,7 +313,8 @@ details {
   }
 }
 
-input[type="submit"].flats-search-input {
+input[type="submit"].flats-search-input,
+input[type="button"].flats-search-input {
   margin: 0;
   width: 150px;
   height: 50px;

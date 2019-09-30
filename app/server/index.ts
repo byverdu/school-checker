@@ -3,7 +3,7 @@ import {Request} from 'express';
 const express = require('express')
 const app = express()
 const port = 3000
-const axios = require('axios');
+const moment = require('moment');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
@@ -35,8 +35,11 @@ app.get('/', (req, res) => {
 });
 
 app.post('/flats', (req: Request, res) => {
+  const lastUpdated = moment().subtract(40, 'days').utc().unix();
   const requestValues = Object.keys(req.body).map(value => `${value}=${req.body[value]}`).join('&');
-  const tempUrl = `${BASE_API_URL}&page=${1}&number_of_results=50&${requestValues}`;
+  const tempUrl = `${BASE_API_URL}&page=${1}&number_of_results=50&sort=newest&updated_min=${lastUpdated}&${requestValues}`;
+
+  console.log(tempUrl);
 
   new Promise((resolve, reject) => {
     getPaginatedFlats(tempUrl, [], resolve, reject)

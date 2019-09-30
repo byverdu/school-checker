@@ -24,6 +24,7 @@ interface AppState {
   map: google.maps.Map | null;
   schools: School[];
   triggerMapLoad: boolean;
+  fetchingFlats: boolean;
 }
 
 interface AppContext {
@@ -52,12 +53,14 @@ export default class App extends React.Component<{}, AppState> {
       flatMarkers: [],
       map: null,
       schools: schoolsData,
-      triggerMapLoad: false
+      triggerMapLoad: false,
+      fetchingFlats: false
     }
 
     this.onHashChange = this.onHashChange.bind(this);
     this.onSubmitFlatForm = this.onSubmitFlatForm.bind(this);
     this.setMapMarkers = this.setMapMarkers.bind(this);
+    this.deleteFlatMarkers = this.deleteFlatMarkers.bind(this);
     this.loadMap = this.loadMap.bind(this);
 
     this.searchInputBox = createRef<HTMLInputElement>();
@@ -118,7 +121,9 @@ export default class App extends React.Component<{}, AppState> {
 
   async onSubmitFlatForm(e) {
     e.preventDefault();
-    const formValues = {}
+    const formValues = {};
+    this.setState({ fetchingFlats: true });
+
 
     Array.from(
       (document.querySelector('form') as HTMLFormElement).elements
@@ -137,7 +142,7 @@ export default class App extends React.Component<{}, AppState> {
 
       console.table(flats);
 
-      this.setState({ flats });
+      this.setState({ flats, flatMarkers, fetchingFlats: false });
 
     } catch (e) {
       throw e;
@@ -160,14 +165,26 @@ export default class App extends React.Component<{}, AppState> {
     });
   }
 
+  deleteFlatMarkers() {
+    // delete previous markers
+    this.state.flatMarkers.forEach(marker => {
+      marker.setMap(null);
+    });
+
+    this.setState({
+      flatMarkers: []
+    });
+  }
+
   render() {
-    const { schools, newLocation, map, schoolMarkers } = this.state;
+    const { schools, newLocation, map, schoolMarkers, fetchingFlats } = this.state;
 
     return (
       <ErrorBoundary>
         <GoogleMapContext.Provider value={{ schools, map, schoolMarkers, setMapMarkers: this.setMapMarkers }}>
           <Router>
             <section className="school-checker">
+              {fetchingFlats && <div className="map-loader"></div>}
               <header>
                 <Link className="map-home-btn" to="/">Home</Link>
                 <h1 className="map-title">School Checker</h1>
@@ -176,6 +193,7 @@ export default class App extends React.Component<{}, AppState> {
                 schools={schools}
                 newLocation={newLocation}
                 onFormSubmit={this.onSubmitFlatForm}
+                deleteFlatMarkers={this.deleteFlatMarkers}
               />
 
               <Route exact path="/" render={() => {

@@ -9,10 +9,11 @@ import { ROOT_URL } from 'config';
 interface AppNavProps {
   schools: School[],
   newLocation: string,
-  onFormSubmit: (e) => void
+  onFormSubmit: (e) => void;
+  deleteFlatMarkers: () => void
 }
 
-const AppNav: SFC<AppNavProps> = ({ schools, newLocation, onFormSubmit }) => (
+const AppNav: SFC<AppNavProps> = ({ schools, newLocation, onFormSubmit, deleteFlatMarkers }) => (
   <Fragment>
     <SchoolsListNavDetails
       schools={schools}
@@ -20,7 +21,7 @@ const AppNav: SFC<AppNavProps> = ({ schools, newLocation, onFormSubmit }) => (
     />
     {newLocation === ROOT_URL && (
       <Fragment>
-        <SearchFlatsNavDetails onFormSubmit={onFormSubmit} />
+        <SearchFlatsNavDetails deleteFlatMarkers={deleteFlatMarkers} onFormSubmit={onFormSubmit} />
         <MapLegendsNavDetails />
         <FilterCheckboxesNavDetails />
       </Fragment>

@@ -38,7 +38,7 @@ export class FlatMaker {
       return EnumFlatRatingColouring.Old;
     }
 
-    if (updatedDay < 30 || updatedDay >= 20) {
+    if (updatedDay < 30 && updatedDay >= 20) {
       return EnumFlatRatingColouring.Half;
     }
 

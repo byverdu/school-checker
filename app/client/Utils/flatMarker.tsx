@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { Flat } from 'Models/Flat';
-import { EnumOfstedRatingColouring } from 'Models/Enums';
+import { EnumFlatRatingColouring } from 'Models/Enums';
 import InfoWindow from 'Components/InfoWindow';
 import SvgIcon from 'Components/SvgIcon';
 import customMarkerWrapper from './customMarkerWrapper';
@@ -18,7 +18,7 @@ export function createFlatMarker(
   const svg = ReactDOMServer.renderToString(
     <SvgIcon
       type="flat"
-      color={EnumOfstedRatingColouring.None}
+      color={flat.flat_rating}
     />
   );
 
@@ -28,7 +28,7 @@ export function createFlatMarker(
     map: map,
     icon: {
       url: 'data:image/svg+xml;charset=UTF-8;base64,' + btoa(svg),
-      scaledSize: new google.maps.Size(50, 50)
+      scaledSize: new google.maps.Size(30, 30)
     },
     title: flat.title
   });
