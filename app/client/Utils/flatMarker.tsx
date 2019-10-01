@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { Flat } from 'Models/Flat';
-import { EnumFlatRatingColouring } from 'Models/Enums';
-import InfoWindow from 'Components/InfoWindow';
+import FlatInfoWindow from 'Components/FlatInfoWindow';
 import SvgIcon from 'Components/SvgIcon';
 import customMarkerWrapper from './customMarkerWrapper';
 
@@ -11,9 +10,9 @@ export function createFlatMarker(
   flat: Flat
 ) {
 
-  // const element = ReactDOMServer.renderToString(<InfoWindow school={school} />)
+  const element = ReactDOMServer.renderToString(<FlatInfoWindow flat={flat} />)
 
-  // var infowindow = new google.maps.InfoWindow();
+  var infowindow = new google.maps.InfoWindow();
 
   const svg = ReactDOMServer.renderToString(
     <SvgIcon
@@ -32,29 +31,11 @@ export function createFlatMarker(
     },
     title: flat.title
   });
-  // var cityCircle;
 
-  // google.maps.event.addListener(marker, 'mouseover', function () {
-  //   cityCircle = new google.maps.Circle({
-  //     strokeColor: '#FF0000',
-  //     strokeOpacity: 0.8,
-  //     strokeWeight: 2,
-  //     fillColor: '#FF0000',
-  //     fillOpacity: 0.35,
-  //     map: map,
-  //     center: new google.maps.LatLng(school.lat, school.lng),
-  //     radius: school.furthestDistance
-  //   });
-  // });
-
-  // google.maps.event.addListener(marker, 'mouseout', function () {
-  //   cityCircle.setMap(null);
-  // });
-
-  // google.maps.event.addListener(marker, 'click', function () {
-  //   infowindow.setContent(element);
-  //   infowindow.open(map, marker);
-  // });
+  google.maps.event.addListener(marker, 'click', function () {
+    infowindow.setContent(element);
+    infowindow.open(map, marker);
+  });
 
   return marker;
 }

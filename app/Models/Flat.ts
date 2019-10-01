@@ -6,19 +6,20 @@ export interface Flat {
   img_url: string;
   lister_url: string;
   price: number;
+  bedroom_number: number;
   price_formatted: string;
   price_type: string;
   property_type: string;
   title: string;
   updated_in_days: number;
   flat_rating: EnumFlatRatingColouring
-
 }
 
 export class FlatMaker {
 
   static create(flat: Flat): Flat {
     return {
+      bedroom_number: flat.bedroom_number,
       latitude: flat.latitude,
       longitude: flat.longitude,
       img_url: flat.img_url,
