@@ -14,7 +14,7 @@ const devServerEnabled = true;
 app.use(express.json());
 
 if (devServerEnabled) {
-    config.entry.app.unshift('webpack-hot-middleware/client?reload=true&timeout=1000');
+    config.entry.src.unshift('webpack-hot-middleware/client?reload=true&timeout=1000');
 
     //Add HMR plugin
     config.plugins.push(new webpack.HotModuleReplacementPlugin());

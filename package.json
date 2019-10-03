@@ -6,8 +6,8 @@
     "web-scrapper": "./node_modules/.bin/cypress run -P scrapper",
     "tsc:watch": "tsc -p ./tsconfig.json --pretty --watch",
     "dev": "webpack-dev-server",
-    "dev:server": "ts-node-dev --inspect --respawn --transpileOnly --project ./tsconfig.json app/server",
-    "build": "webpack"
+    "dev:server": "ts-node-dev --inspect --respawn --transpileOnly --project ./tsconfig.json src/server",
+    "build:client": "webpack"
   },
   "repository": {
     "type": "git",

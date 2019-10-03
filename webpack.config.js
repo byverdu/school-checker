@@ -11,7 +11,7 @@ module.exports = {
   },
 
   entry: {
-    app: [`${__dirname}/app/client/index.tsx`]
+    src: [`${__dirname}/src/client/index.tsx`]
   },
 
   // Enable sourcemaps for debugging webpack's output.
@@ -23,7 +23,7 @@ module.exports = {
     plugins: [
       new TsconfigPathsPlugin({
         configFile: './tsconfig.json',
-        baseUrl: 'app'
+        baseUrl: 'src'
       })
     ],
     modules: [path.join(__dirname, 'node_modules')]
