@@ -9,9 +9,10 @@ const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
 const config = require('../../webpack.config');
 
-const devServerEnabled = true;
+const devServerEnabled = process.env.NODE_ENV !== 'production';
 
 app.use(express.json());
+app.use(express.static(__dirname + '/static'));
 
 if (devServerEnabled) {
     config.entry.src.unshift('webpack-hot-middleware/client?reload=true&timeout=1000');
@@ -31,7 +32,7 @@ if (devServerEnabled) {
 }
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/public/index.html')
+  res.sendFile(__dirname + '/static/index.html')
 });
 
 app.post('/flats', (req: Request, res) => {

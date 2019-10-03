@@ -5,4 +5,4 @@ scrapper/cypress/fixtures
 scrapper/cypress/plugins
 scrapper/cypress/support
 .DS*
-build/
+app/
