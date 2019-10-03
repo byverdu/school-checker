@@ -1,0 +1,14 @@
+version: "3"
+services:
+  app:
+    container_name: school-checker # How the container will appear when listing containers from the CLI
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: node # The user to run as in the container
+    working_dir: "/usr/src/app/app" # Where to container will assume it should run commands and where you will start out if you go inside the container
+    ports:
+    - "3000:3000" # <host-port>:<container-port> to listen to, so anything running on port 3000 of the container will map to port 3000 on our localhost
+    volumes:
+    - ./:/usr/src/app
+    - ./node_modules:/usr/src/app/node_modules/
