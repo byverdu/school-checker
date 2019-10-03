@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-export const BASE_API_URL = 'https://api.nestoria.co.uk/api?action=search_listings&encoding=json&pretty';
-
 let pageNumber = 0;
 
 export async function getPaginatedFlats (url, flats, resolve, reject) {

@@ -1,6 +1,10 @@
 export const GOOGLE_MAPS_API = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBpuUN_YIh-R1chI7EcNG1ic62zoDPvj14&libraries=places';
 
-export const ROOT_URL = 'http://localhost:3000/#/';
+export const PORT = process.env.PORT || 3000;
+
+export const BASE_API_URL = 'https://api.nestoria.co.uk/api?action=search_listings&encoding=json&pretty';
+
+export const ROOT_URL = `http://localhost:${PORT}/#/`;
 
 export const DEFAULT_LAT_LNG = {
   lat: 51.4372907,

@@ -30,17 +30,7 @@ export function loadFlatMarkers(
   map: google.maps.Map
 ): google.maps.Marker[] {
 
-  return flats.map((flat: Flat) => {
-    // const flatSchool = FlatMaker.create(flat);
-    const marker = createFlatMarker(map, flat);
-    // createSchoolPopup({
-    //   position: new google.maps.LatLng(school.lat, school.lng),
-    //   textContent: school.name,
-    //   map
-    // });
-
-    return marker;
-  });
+  return flats.map((flat: Flat) => createFlatMarker(map, flat));
 }
 
 export function mapInit (

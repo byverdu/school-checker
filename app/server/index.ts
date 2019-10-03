@@ -1,8 +1,8 @@
-import { getPaginatedFlats, BASE_API_URL } from "./Utils/index";
+import { getPaginatedFlats } from "./Utils/index";
+import { PORT, BASE_API_URL } from "../config";
 import {Request} from 'express';
-const express = require('express')
-const app = express()
-const port = 9000
+const express = require('express');
+const app = express();
 const moment = require('moment');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
@@ -52,4 +52,4 @@ app.post('/flats', (req: Request, res) => {
     })
 })
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`));
+app.listen(PORT, () => console.log(`Example app listening on PORT ${PORT}!`));
