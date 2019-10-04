@@ -5,9 +5,8 @@ ENV NODE_ENV=development
 RUN npm install -g yarn
 
 COPY ./package.json .
-COPY ./src/server/index.ts ./src/server
-RUN ls src/server
-RUN pwd
+COPY . /
+RUN ls
 
 RUN yarn install
 RUN yarn build
