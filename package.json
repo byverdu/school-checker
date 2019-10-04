@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server",
     "dev:server": "ts-node-dev --inspect --respawn --transpileOnly --project ./tsconfig.json src/server",
     "build:client": "webpack",
-    "build:server": "tsc ./src/server/index.ts --outDir ./app",
+    "build:server": "tsc src/server/index.ts --outDir ./app",
     "build": " npm run build:server && npm run build:client"
   },
   "repository": {

@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     user: node # The user to run as in the container
-    working_dir: "/usr/src/app/app" # Where to container will assume it should run commands and where you will start out if you go inside the container
+    working_dir: "/usr/src/app" # Where to container will assume it should run commands and where you will start out if you go inside the container
     ports:
     - "3000:3000" # <host-port>:<container-port> to listen to, so anything running on port 3000 of the container will map to port 3000 on our localhost
     volumes:
