@@ -6,3 +6,4 @@ scrapper/cypress/plugins
 scrapper/cypress/support
 .DS*
 app/
+yarn-error.log

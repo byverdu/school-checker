@@ -4,10 +4,11 @@
   "description": "Web Application that will show in Google maps the information about schools and what properties are for rent/sell around it.",
   "scripts": {
     "start": "NODE_ENV=production node app/server",
-    "web-scrapper": "./node_modules/.bin/cypress run -P scrapper",
+    "scrapper": "./node_modules/.bin/cypress run -P scrapper",
     "tsc:watch": "tsc -p ./tsconfig.json --pretty --watch",
-    "dev": "webpack-dev-server",
-    "dev:server": "ts-node-dev --inspect --respawn --transpileOnly --project ./tsconfig.json src/server",
+    "dev:client": "webpack-dev-server",
+    "dev:server": "ts-node-dev --inspect --respawn --project ./tsconfig.json src/server",
+    "dev": "npm-run-all --parallel dev:server dev:client",
     "build:client": "webpack",
     "build:server": "tsc src/server/index.ts --outDir ./app",
     "build": " npm run build:server && npm run build:client"
@@ -25,7 +26,7 @@
   "dependencies": {
     "@types/express": "^4.17.0",
     "@types/node": "^12.7.1",
-    "axios": "^0.19.0",
+    "axios": "^0.19.2",
     "express": "^4.17.1",
     "loadjs": "^4.0.1",
     "react": "^16.8.6",
@@ -43,6 +44,7 @@
     "googlemaps": "^1.12.0",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
+    "npm-run-all": "^4.1.5",
     "sass-loader": "^7.2.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
