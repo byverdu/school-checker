@@ -1,5 +1,7 @@
 # School Checker
 
+> Data updated for 2020
+
 Web Application that will show in Google maps the information about schools and what properties are for rent/sell around it.
 
 ## How to get boundaries of a place
