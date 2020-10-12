@@ -2,47 +2,47 @@
   {
     "name": "Albemarle Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 1523
+    "furthestDistance": 694
   },
   {
     "name": "Alderbrook Primary School",
-    "admissionNumber": 60,
-    "furthestDistance": 878
-  },
-  {
-    "name": "All Saints' CofE Primary School, Putney",
-    "admissionNumber": 30,
-    "furthestDistance": 206
-  },
-  {
-    "name": "Allfarthing Primary School",
-    "admissionNumber": 60,
-    "furthestDistance": 559
-  },
-  {
-    "name": "ARK John Archer Primary Academy",
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
   {
+    "name": "All Saints' CofE Primary School, Putney",
+    "admissionNumber": 30,
+    "furthestDistance": 458
+  },
+  {
+    "name": "Allfarthing Primary School",
+    "admissionNumber": 60,
+    "furthestDistance": 447
+  },
+  {
+    "name": "ARK John Archer Primary Academy",
+    "admissionNumber": 30,
+    "furthestDistance": 885
+  },
+  {
     "name": "Beatrix Potter Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 711
+    "furthestDistance": 636
   },
   {
     "name": "Belleville Primary School",
-    "admissionNumber": 120,
-    "furthestDistance": 391
+    "admissionNumber": 150,
+    "furthestDistance": 923
   },
   {
     "name": "Belleville Wix Academy",
-    "admissionNumber": 74,
-    "furthestDistance": 1815
+    "admissionNumber": 30,
+    "furthestDistance": 379
   },
   {
     "name": "Brandlehow Primary School",
-    "admissionNumber": 30,
-    "furthestDistance": 77
+    "admissionNumber": 60,
+    "furthestDistance": 626
   },
   {
     "name": "Broadwater Primary School",
@@ -52,17 +52,17 @@
   {
     "name": "Chesterton Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 981
+    "furthestDistance": 960
   },
   {
     "name": "Christ Church CofE Primary School",
-    "admissionNumber": 60,
-    "furthestDistance": 350
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "Earlsfield Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 350
+    "furthestDistance": 340
   },
   {
     "name": "Falconbrook Primary School",
@@ -72,12 +72,12 @@
   {
     "name": "Fircroft Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 682
+    "furthestDistance": 738
   },
   {
     "name": "Floreat Wandsworth Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 449
+    "furthestDistance": 397
   },
   {
     "name": "Franciscan Primary School",
@@ -86,13 +86,13 @@
   },
   {
     "name": "Furzedown Primary School",
-    "admissionNumber": 60,
-    "furthestDistance": 575
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "Gatton (VA) Primary School",
     "admissionNumber": 90,
-    "furthestDistance": 1085
+    "furthestDistance": 1111
   },
   {
     "name": "Goldfinch Primary School",
@@ -116,18 +116,18 @@
   },
   {
     "name": "Hillbrook School",
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "admissionNumber": 90,
+    "furthestDistance": 1058
   },
   {
     "name": "Holy Ghost Catholic Primary School",
     "admissionNumber": 30,
-    "furthestDistance": 785
+    "furthestDistance": 652
   },
   {
     "name": "Honeywell Infant School",
-    "admissionNumber": 0,
-    "furthestDistance": 0
+    "admissionNumber": 90,
+    "furthestDistance": 336
   },
   {
     "name": "Honeywell Junior School",
@@ -137,22 +137,22 @@
   {
     "name": "Hotham Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 912
+    "furthestDistance": 1970
   },
   {
     "name": "John Burns Primary School",
+    "admissionNumber": 60,
+    "furthestDistance": 1586
+  },
+  {
+    "name": "Mosaic Jewish Primary School",
     "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
   {
-    "name": "Mosaic Jewish Primary School",
-    "admissionNumber": 60,
-    "furthestDistance": 2118
-  },
-  {
     "name": "Oasis Academy Putney",
-    "admissionNumber": 60,
-    "furthestDistance": 2141
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "Our Lady of Victories Catholic Primary School",
@@ -162,22 +162,22 @@
   {
     "name": "Our Lady Queen of Heaven RC School",
     "admissionNumber": 30,
-    "furthestDistance": 395
+    "furthestDistance": 0
   },
   {
     "name": "Penwortham Primary School",
     "admissionNumber": 90,
-    "furthestDistance": 446
+    "furthestDistance": 656
   },
   {
     "name": "Ravenstone Primary School",
-    "admissionNumber": 58,
-    "furthestDistance": 987
+    "admissionNumber": 60,
+    "furthestDistance": 955
   },
   {
     "name": "Riversdale Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 855
+    "furthestDistance": 496
   },
   {
     "name": "Roehampton CofE Primary School",
@@ -187,17 +187,17 @@
   {
     "name": "Ronald Ross Primary School",
     "admissionNumber": 30,
-    "furthestDistance": 220
+    "furthestDistance": 416
   },
   {
     "name": "Rutherford House School",
     "admissionNumber": 60,
-    "furthestDistance": 733
+    "furthestDistance": 934
   },
   {
     "name": "Sacred Heart Catholic Primary School, Battersea",
-    "admissionNumber": 60,
-    "furthestDistance": 753
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "Sacred Heart Catholic Primary School, Roehampton",
@@ -217,12 +217,12 @@
   {
     "name": "Sheringdale Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 0
+    "furthestDistance": 255
   },
   {
     "name": "Smallwood Primary School and Language Unit",
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "admissionNumber": 30,
+    "furthestDistance": 541
   },
   {
     "name": "Southmead Primary School",
@@ -231,8 +231,8 @@
   },
   {
     "name": "St Anne's CofE Primary School",
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "admissionNumber": 30,
+    "furthestDistance": 2652
   },
   {
     "name": "St Anselm's Catholic Primary School",
@@ -241,18 +241,18 @@
   },
   {
     "name": "St Boniface RC Primary School",
-    "admissionNumber": 50,
+    "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
   {
     "name": "St Faith's CofE Primary School",
-    "admissionNumber": 30,
-    "furthestDistance": 634
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "St George's CofE Primary School",
-    "admissionNumber": 30,
-    "furthestDistance": 246
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "St Mary's CofE Primary School",
@@ -261,23 +261,23 @@
   },
   {
     "name": "St Mary's RC Voluntary Aided Primary School",
-    "admissionNumber": 30,
-    "furthestDistance": 62
+    "admissionNumber": "All applicants offered a place",
+    "furthestDistance": 0
   },
   {
     "name": "St Michael's CofE Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 329
+    "furthestDistance": 174
   },
   {
     "name": "St Joseph's RC Primary School",
-    "admissionNumber": 0,
+    "admissionNumber": "All applicants offered a place",
     "furthestDistance": 0
   },
   {
     "name": "Swaffield Primary School",
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "admissionNumber": 60,
+    "furthestDistance": 4054
   },
   {
     "name": "The Alton School",
@@ -287,7 +287,7 @@
   {
     "name": "Tooting Primary School",
     "admissionNumber": 60,
-    "furthestDistance": 615
+    "furthestDistance": 673
   },
   {
     "name": "Trinity St Mary's CofE Primary School",
@@ -297,7 +297,7 @@
   {
     "name": "West Hill Primary School",
     "admissionNumber": 30,
-    "furthestDistance": 1835
+    "furthestDistance": 1031
   },
   {
     "name": "Westbridge Primary School",

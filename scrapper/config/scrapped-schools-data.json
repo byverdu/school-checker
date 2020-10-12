@@ -1,5 +1,45 @@
 [
   {
+    "id": "e3c76474-f9ba-46b1-9c97-3f13979f366d",
+    "name": "Albemarle Primary School",
+    "schoolURLReport": "www.compare-school-performance.service.gov.uk/school/101032/albemarle-primary-school/primary",
+    "address": "Princes Way",
+    "postcode": "SW19 6JP",
+    "type": "Foundation school",
+    "sex": "Mixed",
+    "age": "3 to 11",
+    "religion": "None",
+    "website": "http://www.albemarle.wandsworth.sch.uk/",
+    "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101032",
+    "ofstedDate": "03 Mar 2009",
+    "ofstedRating": "1",
+    "statsReading": "Above average:2.2",
+    "statsWriting": "Average:0.4",
+    "statsMaths": "Average:1.1",
+    "charts": {
+      "expected": {
+        "text": "Meeting expected Standard",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"214.785\"></rect><text class=\"value-label\" x=\"219.785\" y=\"19\">74%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"203.17499999999998\"></rect><text class=\"value-label\" x=\"208.17499999999998\" y=\"54\">70%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"89\">65%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
+        "score": { "school": "74", "localAuthoroty": "70", "england": "65" }
+      },
+      "higher": {
+        "text": "Achieving higher Standard",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"55.1475\"></rect><text class=\"value-label\" x=\"60.1475\" y=\"19\">19%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"46.44\"></rect><text class=\"value-label\" x=\"51.44\" y=\"54\">16%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"31.9275\"></rect><text class=\"value-label\" x=\"36.927499999999995\" y=\"89\">11%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
+        "score": { "school": "19", "localAuthority": "16", "england": "11" }
+      },
+      "readScore": {
+        "text": "Average score in reading",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"203.17499999999998\"></rect><text class=\"value-label\" x=\"208.17499999999998\" y=\"19\">108</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"89\">104</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
+        "score": { "school": "108", "localAuthority": "106", "england": "104" }
+      },
+      "writeScore": {
+        "text": "Average score in writing",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
+        "score": { "school": "107", "localAuthority": "106", "england": "105" }
+      }
+    }
+  },
+  {
     "id": "26dbd748-83c1-4ffe-8b9d-96445768b2f8",
     "name": "Alderbrook Primary School",
     "schoolURLReport": "www.compare-school-performance.service.gov.uk/school/100995/alderbrook-primary-school/primary",
@@ -37,11 +77,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4485349,
-    "lng": -0.14938929999993888,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "4579d6ad-09d1-4193-905b-fe8e9828e042",
@@ -81,11 +117,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4676605,
-    "lng": -0.2276056000000608,
-    "admissionNumber": 30,
-    "furthestDistance": 458
+    }
   },
   {
     "id": "2076fb6d-ba8c-4e0f-99bb-ab87cfc8478a",
@@ -125,11 +157,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4541925,
-    "lng": -0.18626150000000052,
-    "admissionNumber": 60,
-    "furthestDistance": 447
+    }
   },
   {
     "id": "5f49a696-3d75-4590-9150-b7f3f48c6cd7",
@@ -169,11 +197,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"145.125\"></rect><text class=\"value-label\" x=\"150.125\" y=\"19\">100</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "100", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4620481,
-    "lng": -0.17405710000002728,
-    "admissionNumber": 30,
-    "furthestDistance": 885
+    }
   },
   {
     "id": "534ec8e3-3ec2-4f27-b6ba-de261e6c1873",
@@ -213,11 +237,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.444271,
-    "lng": -0.18206609999992907,
-    "admissionNumber": 60,
-    "furthestDistance": 636
+    }
   },
   {
     "id": "06844ae4-b19a-42c5-b0e5-4422d2115103",
@@ -257,11 +277,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4568507,
-    "lng": -0.16461800000001858,
-    "admissionNumber": 150,
-    "furthestDistance": 923
+    }
   },
   {
     "id": "c5fc0dd6-5736-48fc-abe6-892e1be1dda7",
@@ -300,11 +316,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4658956,
-    "lng": -0.15145480000001044,
-    "admissionNumber": 30,
-    "furthestDistance": 379
+    }
   },
   {
     "id": "5dfb534a-8844-4fdd-b44e-6fde06ac06f2",
@@ -344,11 +356,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4614607,
-    "lng": -0.20734149999998408,
-    "admissionNumber": 60,
-    "furthestDistance": 626
+    }
   },
   {
     "id": "ee1057af-f936-476e-b844-baef00f875f9",
@@ -388,11 +396,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"19\">106</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "106", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4309938,
-    "lng": -0.17372610000006716,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "1abd0791-a647-48e5-8e8d-0d702591c9ad",
@@ -432,11 +436,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"217.6875\"></rect><text class=\"value-label\" x=\"222.6875\" y=\"19\">110</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "110", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4736039,
-    "lng": -0.15663740000002235,
-    "admissionNumber": 60,
-    "furthestDistance": 960
+    }
   },
   {
     "id": "c3b52ef4-0a77-4b73-b8be-5cb80734138f",
@@ -476,11 +476,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4666145,
-    "lng": -0.16605249999997795,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "d86a5601-8428-442d-9873-893d63c4502b",
@@ -520,11 +516,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.441475,
-    "lng": -0.1862684000000172,
-    "admissionNumber": 60,
-    "furthestDistance": 340
+    }
   },
   {
     "id": "55fb53a6-b4d7-4e1b-8a2a-3db4cc3c8ae2",
@@ -564,11 +556,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4681618,
-    "lng": -0.17441659999997228,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "0b4bdc7d-6ee0-4ad0-8910-f0247121b3c4",
@@ -608,11 +596,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4368318,
-    "lng": -0.16413330000000315,
-    "admissionNumber": 60,
-    "furthestDistance": 738
+    }
   },
   {
     "id": "e546c9a0-05b0-4b8d-b853-ab0e9ec4c8de",
@@ -627,11 +611,7 @@
     "website": "http://www.floreatwandsworth.org.uk/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/140423",
     "ofstedDate": "10 May 2018",
-    "ofstedRating": "2",
-    "lat": 51.447378,
-    "lng": -0.18887760000006892,
-    "admissionNumber": 60,
-    "furthestDistance": 397
+    "ofstedRating": "2"
   },
   {
     "id": "22d8e633-d207-4f8d-a4bb-fd722fce1092",
@@ -671,11 +651,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.427403,
-    "lng": -0.1608696000000691,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "d6d239e1-05b9-4586-a1d6-08880a0d88b9",
@@ -715,11 +691,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4220008,
-    "lng": -0.1525914000000057,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "f66162c0-17d9-4503-a6d4-c733690a4b98",
@@ -759,11 +731,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"217.6875\"></rect><text class=\"value-label\" x=\"222.6875\" y=\"19\">110</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "110", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4305929,
-    "lng": -0.1673971000000165,
-    "admissionNumber": 90,
-    "furthestDistance": 1111
+    }
   },
   {
     "id": "caaebde5-9ac4-4a8f-b3c6-f1e72d52f04a",
@@ -778,11 +746,7 @@
     "website": "http://www.goldfinchprimary.org.uk/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/146549",
     "ofstedDate": "Not Applicable",
-    "ofstedRating": "-",
-    "lat": 51.42152309999999,
-    "lng": -0.1410452999999734,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "ofstedRating": "-"
   },
   {
     "id": "77004c0a-3325-48d9-8dfe-71af9c6d52e7",
@@ -822,11 +786,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"19\">106</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "106", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4558324,
-    "lng": -0.233022300000016,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "8897d01f-e96f-449f-8bf0-34c478e0a7f1",
@@ -866,11 +826,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4740372,
-    "lng": -0.13837409999996453,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "d31ed73e-2346-4ce5-a55b-cbb6882c5fde",
@@ -910,11 +866,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4456395,
-    "lng": -0.24212390000002415,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "9a4a64aa-a8f7-4d35-846d-a418b9457b2d",
@@ -954,11 +906,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4326527,
-    "lng": -0.16089990000000398,
-    "admissionNumber": 90,
-    "furthestDistance": 1058
+    }
   },
   {
     "id": "c5d58af8-1367-4314-a5d2-33ef18932140",
@@ -998,11 +946,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"217.6875\"></rect><text class=\"value-label\" x=\"222.6875\" y=\"19\">110</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "110", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4480002,
-    "lng": -0.15631039999993845,
-    "admissionNumber": 30,
-    "furthestDistance": 652
+    }
   },
   {
     "id": "683ed702-a11b-4cf8-8eed-f3620af07c9a",
@@ -1017,11 +961,7 @@
     "website": "http://www.honeywellschools.org/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101012",
     "ofstedDate": "20 Jan 2010",
-    "ofstedRating": "1",
-    "lat": 51.4547208,
-    "lng": -0.16203629999995428,
-    "admissionNumber": 90,
-    "furthestDistance": 336
+    "ofstedRating": "1"
   },
   {
     "id": "d9a8d586-6a7a-49bb-9761-87b3ad7aaa8e",
@@ -1061,11 +1001,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"224.94375\"></rect><text class=\"value-label\" x=\"229.94375\" y=\"19\">111</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "111", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4547208,
-    "lng": -0.16203629999995428,
-    "admissionNumber": 90,
-    "furthestDistance": 250
+    }
   },
   {
     "id": "1f80e06c-4e04-48bb-ab14-8c3565fdd845",
@@ -1105,11 +1041,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4643896,
-    "lng": -0.22132950000002438,
-    "admissionNumber": 60,
-    "furthestDistance": 1970
+    }
   },
   {
     "id": "01beb1e0-76bd-4e3b-a855-9efbce372010",
@@ -1149,11 +1081,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4694227,
-    "lng": -0.15303429999994478,
-    "admissionNumber": 60,
-    "furthestDistance": 1586
+    }
   },
   {
     "id": "c086e4fd-0b0e-4f12-a311-65a315afc82e",
@@ -1168,11 +1096,7 @@
     "website": "http://www.mjps.org.uk/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/139687",
     "ofstedDate": "25 Jun 2015",
-    "ofstedRating": "1",
-    "lat": 51.4518691,
-    "lng": -0.24511870000003455,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "ofstedRating": "1"
   },
   {
     "id": "af640c73-1c83-4cab-a557-7d86e3d73165",
@@ -1187,11 +1111,7 @@
     "website": "http://www.oasisputney.org/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/140222",
     "ofstedDate": "25 Apr 2019",
-    "ofstedRating": "2",
-    "lat": 51.4691346,
-    "lng": -0.2292721999999685,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    "ofstedRating": "2"
   },
   {
     "id": "b6dda8a0-f3f2-460a-a82d-57bf50c11edc",
@@ -1231,11 +1151,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4637289,
-    "lng": -0.22352980000005118,
-    "admissionNumber": 30,
-    "furthestDistance": 0
+    }
   },
   {
     "id": "7d83405c-a472-4415-b812-8011c827f379",
@@ -1275,11 +1191,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.44797939999999,
-    "lng": -0.22046469999997953,
-    "admissionNumber": 30,
-    "furthestDistance": 0
+    }
   },
   {
     "id": "5fb3c3ab-08ae-49d9-b507-5fe64bbc9af5",
@@ -1319,11 +1231,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4224196,
-    "lng": -0.14572199999997792,
-    "admissionNumber": 90,
-    "furthestDistance": 656
+    }
   },
   {
     "id": "f6ac0605-2abb-473b-bb14-de8714190ff6",
@@ -1363,11 +1271,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"19\">106</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "106", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4415232,
-    "lng": -0.15288140000006933,
-    "admissionNumber": 60,
-    "furthestDistance": 955
+    }
   },
   {
     "id": "8cd26c2c-5c62-4ade-ba39-831b2c0bf9e1",
@@ -1407,11 +1311,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.44637650000001,
-    "lng": -0.19915079999998397,
-    "admissionNumber": 60,
-    "furthestDistance": 496
+    }
   },
   {
     "id": "19cd9d0c-7ba8-423e-b5bf-54cf6ebe4b6b",
@@ -1451,11 +1351,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4482747,
-    "lng": -0.2373689999999442,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "3c91a4ec-8da4-4da3-82db-ee8b5f755b11",
@@ -1495,11 +1391,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4483983,
-    "lng": -0.2157842999999957,
-    "admissionNumber": 30,
-    "furthestDistance": 416
+    }
   },
   {
     "id": "765bb843-60c1-4569-9ccb-c3377418ad36",
@@ -1514,11 +1406,7 @@
     "website": "http://www.rutherfordhouseschool.co.uk/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/139775",
     "ofstedDate": "25 Apr 2019",
-    "ofstedRating": "2",
-    "lat": 51.4390966,
-    "lng": -0.15550880000000689,
-    "admissionNumber": 60,
-    "furthestDistance": 934
+    "ofstedRating": "2"
   },
   {
     "id": "788e80c3-95b3-416e-af89-ad2104a6b3d0",
@@ -1558,11 +1446,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"203.17499999999998\"></rect><text class=\"value-label\" x=\"208.17499999999998\" y=\"19\">108</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "108", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.46940420000001,
-    "lng": -0.16661999999996624,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "cf7d49a1-a51e-48eb-b6f7-af5ab6db1faf",
@@ -1602,11 +1486,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4575936,
-    "lng": -0.24194569999997384,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "14061994-8654-4be0-b90b-be9c742fc6ea",
@@ -1646,11 +1526,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4231282,
-    "lng": -0.16781059999993886,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "967d86d6-dbed-4485-97e2-d2d560e26c02",
@@ -1690,11 +1566,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"19\">106</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "106", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4688435,
-    "lng": -0.15661069999998745,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "ade88bbc-232f-4255-baf4-142b6742e250",
@@ -1734,11 +1606,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.44669709999999,
-    "lng": -0.20355949999998302,
-    "admissionNumber": 60,
-    "furthestDistance": 255
+    }
   },
   {
     "id": "dd1206c7-92e8-43da-a444-cb8ec872d8f8",
@@ -1778,11 +1646,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"159.63750000000002\"></rect><text class=\"value-label\" x=\"164.63750000000002\" y=\"19\">102</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "102", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.431644,
-    "lng": -0.1777650999999878,
-    "admissionNumber": 30,
-    "furthestDistance": 541
+    }
   },
   {
     "id": "a97d0a94-e040-4a81-9ad9-ff9cd8a7078c",
@@ -1822,11 +1686,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"195.91875000000002\"></rect><text class=\"value-label\" x=\"200.91875000000002\" y=\"19\">107</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "107", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4453621,
-    "lng": -0.2160363000000416,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "47fe0532-f818-4bf9-aabd-9d31e3e0ea02",
@@ -1866,11 +1726,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"224.94375\"></rect><text class=\"value-label\" x=\"229.94375\" y=\"19\">111</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "111", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4561572,
-    "lng": -0.18921239999997397,
-    "admissionNumber": 30,
-    "furthestDistance": 2652
+    }
   },
   {
     "id": "b2e45cde-f1d2-4fc3-8700-0c52777c4dc2",
@@ -1910,11 +1766,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"239.45624999999998\"></rect><text class=\"value-label\" x=\"244.45624999999998\" y=\"19\">113</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "113", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4359384,
-    "lng": -0.15761810000003607,
-    "admissionNumber": 30,
-    "furthestDistance": 0
+    }
   },
   {
     "id": "69df168a-ac6e-41eb-956f-7c01baa27b6e",
@@ -1954,11 +1806,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4274803,
-    "lng": -0.16426160000003165,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "79c0793e-0b61-49df-965e-fb73f870988b",
@@ -1998,11 +1846,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"166.89374999999998\"></rect><text class=\"value-label\" x=\"171.89374999999998\" y=\"19\">103</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "103", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.45952620000001,
-    "lng": -0.1863888999999972,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "3db831ac-7b67-4264-96a6-d341b000312e",
@@ -2042,11 +1886,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"203.17499999999998\"></rect><text class=\"value-label\" x=\"208.17499999999998\" y=\"19\">108</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "108", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4770731,
-    "lng": -0.1393987000000152,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "00b3d7a8-d270-49e8-95b0-fafbe607374b",
@@ -2086,11 +1926,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"217.6875\"></rect><text class=\"value-label\" x=\"222.6875\" y=\"19\">110</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "110", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4664398,
-    "lng": -0.22217290000003231,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "faba167a-feef-4261-afc1-6f92d7761f75",
@@ -2130,11 +1966,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4764911,
-    "lng": -0.14554550000002564,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "c8521d68-14e9-43b1-8a67-433de67582cb",
@@ -2174,11 +2006,47 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"210.43125\"></rect><text class=\"value-label\" x=\"215.43125\" y=\"19\">109</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "109", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4503073,
-    "lng": -0.20358580000004167,
-    "admissionNumber": 60,
-    "furthestDistance": 174
+    }
+  },
+  {
+    "id": "d90caaf6-1a8b-4f1e-b77b-ef94b59a0e90",
+    "name": "St Joseph's Catholic Primary and Nursery School",
+    "schoolURLReport": "www.compare-school-performance.service.gov.uk/school/101045/st-joseph&#39;s-rc-primary-school/primary",
+    "address": "90 Oakhill Road",
+    "postcode": "SW15 2QD",
+    "type": "Voluntary aided school",
+    "sex": "Mixed",
+    "age": "3 to 11",
+    "religion": "Roman Catholic",
+    "website": "http://www.stjosephs.wandsworth.sch.uk/",
+    "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/101045",
+    "ofstedDate": "08 May 2019",
+    "ofstedRating": "2",
+    "statsReading": "Average:-0.4",
+    "statsWriting": "Average:0.6",
+    "statsMaths": "Average:1.9",
+    "charts": {
+      "expected": {
+        "text": "Meeting expected Standard",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"182.8575\"></rect><text class=\"value-label\" x=\"187.8575\" y=\"19\">63%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"203.17499999999998\"></rect><text class=\"value-label\" x=\"208.17499999999998\" y=\"54\">70%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"89\">65%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
+        "score": { "school": "63", "localAuthoroty": "70", "england": "65" }
+      },
+      "higher": {
+        "text": "Achieving higher Standard",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"11.61\"></rect><text class=\"value-label\" x=\"16.61\" y=\"19\">4%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"46.44\"></rect><text class=\"value-label\" x=\"51.44\" y=\"54\">16%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"31.9275\"></rect><text class=\"value-label\" x=\"36.927499999999995\" y=\"89\">11%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
+        "score": { "school": "4", "localAuthority": "16", "england": "11" }
+      },
+      "readScore": {
+        "text": "Average score in reading",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"159.63750000000002\"></rect><text class=\"value-label\" x=\"164.63750000000002\" y=\"19\">102</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"89\">104</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
+        "score": { "school": "102", "localAuthority": "106", "england": "104" }
+      },
+      "writeScore": {
+        "text": "Average score in writing",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
+        "score": { "school": "105", "localAuthority": "106", "england": "105" }
+      }
+    }
   },
   {
     "id": "8b920d9d-28b6-4bd4-98a6-a6d5b093107b",
@@ -2218,11 +2086,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4513211,
-    "lng": -0.1859670000000051,
-    "admissionNumber": 60,
-    "furthestDistance": 4054
+    }
   },
   {
     "id": "d4b038e2-65ff-4a90-aa03-99cd0117f32c",
@@ -2262,11 +2126,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "104", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.45250679999999,
-    "lng": -0.25394779999999173,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "d653324b-c493-4102-a15c-8390d088bb19",
@@ -2281,11 +2141,7 @@
     "website": "http://www.tootingprimary.org.uk/",
     "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/139592",
     "ofstedDate": "24 Jun 2015",
-    "ofstedRating": "1",
-    "lat": 51.4270729,
-    "lng": -0.1623342999999977,
-    "admissionNumber": 60,
-    "furthestDistance": 673
+    "ofstedRating": "1"
   },
   {
     "id": "27519f72-c812-43f7-ae97-33446ea55cad",
@@ -2325,11 +2181,7 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"19\">105</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "105", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4425043,
-    "lng": -0.15545429999997395,
-    "admissionNumber": "All applicants offered a place",
-    "furthestDistance": 0
+    }
   },
   {
     "id": "46daf4b7-d472-4807-b65c-1fb03c53c0ad",
@@ -2369,10 +2221,46 @@
         "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"166.89374999999998\"></rect><text class=\"value-label\" x=\"171.89374999999998\" y=\"19\">103</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
         "score": { "school": "103", "localAuthority": "106", "england": "105" }
       }
-    },
-    "lat": 51.4554847,
-    "lng": -0.19894030000000384,
-    "admissionNumber": 30,
-    "furthestDistance": 1031
+    }
+  },
+  {
+    "id": "8884171d-6be5-4217-8c24-55630672788b",
+    "name": "Westbridge Academy",
+    "schoolURLReport": "www.compare-school-performance.service.gov.uk/school/140682/westbridge-primary-school/primary",
+    "address": "Bolingbroke Walk",
+    "postcode": "SW11 3NE",
+    "type": "Academy sponsor led",
+    "sex": "Mixed",
+    "age": "3 to 11",
+    "religion": "Does not apply",
+    "website": "http://www.westbridgeprimaryschool.com/",
+    "extraInfo": "https://get-information-schools.service.gov.uk/Establishments/Establishment/Details/140682",
+    "ofstedDate": "17 May 2017",
+    "ofstedRating": "2",
+    "statsReading": "Average:-1.8",
+    "statsWriting": "Average:-0.1",
+    "statsMaths": "Average:0.5",
+    "charts": {
+      "expected": {
+        "text": "Meeting expected Standard",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"171.2475\"></rect><text class=\"value-label\" x=\"176.2475\" y=\"19\">59%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"203.17499999999998\"></rect><text class=\"value-label\" x=\"208.17499999999998\" y=\"54\">70%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"89\">65%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
+        "score": { "school": "59", "localAuthoroty": "70", "england": "65" }
+      },
+      "higher": {
+        "text": "Achieving higher Standard",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"17.415\"></rect><text class=\"value-label\" x=\"22.415\" y=\"19\">6%</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"46.44\"></rect><text class=\"value-label\" x=\"51.44\" y=\"54\">16%</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"31.9275\"></rect><text class=\"value-label\" x=\"36.927499999999995\" y=\"89\">11%</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g></g></svg>",
+        "score": { "school": "6", "localAuthority": "16", "england": "11" }
+      },
+      "readScore": {
+        "text": "Average score in reading",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"152.38125\"></rect><text class=\"value-label\" x=\"157.38125\" y=\"19\">101</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"89\">104</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
+        "score": { "school": "101", "localAuthority": "106", "england": "104" }
+      },
+      "writeScore": {
+        "text": "Average score in writing",
+        "svg": "<svg width=\"447.5\" height=\"152\"><g class=\"chart-viewport\" transform=\"translate(95,20)\"><g><rect class=\"bar\" fill=\"#d53880\" y=\"7\" height=\"24\" x=\"0\" width=\"174.15\"></rect><text class=\"value-label\" x=\"179.15\" y=\"19\">104</text></g><g><rect class=\"bar\" fill=\"#6f777b\" y=\"42\" height=\"24\" x=\"0\" width=\"188.6625\"></rect><text class=\"value-label\" x=\"193.6625\" y=\"54\">106</text></g><g><rect class=\"bar\" fill=\"#bfc1c3\" y=\"77\" height=\"24\" x=\"0\" width=\"181.40625\"></rect><text class=\"value-label\" x=\"186.40625\" y=\"89\">105</text></g><g class=\"y axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"end\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,112.5V0.5\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,87)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">England average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,52)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">Local authority</tspan><tspan x=\"-3\" dy=\"1.4200000000000002em\">average</tspan></text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(-4,17)\"><line stroke=\"currentColor\" x2=\"0\"></line><text fill=\"currentColor\" x=\"-3\" dy=\"0.32em\"><tspan x=\"-3\" dy=\"0.32em\">School</tspan></text></g></g><g class=\" x axis\" fill=\"none\" font-size=\"10\" font-family=\"sans-serif\" text-anchor=\"middle\" transform=\"translate(0, 112)\"><path class=\"domain\" stroke=\"currentColor\" d=\"M0.5,6V0.5H290.75V6\"></path><g class=\"tick\" opacity=\"1\" transform=\"translate(0.5,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">80 (lowest)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(145.625,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">100 (expected)</text></g><g class=\"tick\" opacity=\"1\" transform=\"translate(290.75,0)\"><line stroke=\"currentColor\" y2=\"6\"></line><text fill=\"currentColor\" y=\"9\" dy=\"0.71em\">120 (highest)</text></g></g></g></svg>",
+        "score": { "school": "104", "localAuthority": "106", "england": "105" }
+      }
+    }
   }
 ]

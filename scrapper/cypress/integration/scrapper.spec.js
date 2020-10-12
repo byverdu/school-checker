@@ -27,13 +27,18 @@ const test = schools.slice(0, 1);
 
 describe('Name of the group', () => {
   after(() => {
-    cy.writeFile('config/schools-data.json', JSON.stringify(data));
+    cy.writeFile('config/scrapped-schools-data.json', JSON.stringify(data));
   });
-  
-  schools.forEach(schoolURLReport => {
+
+  const schoolsCount = schools.length;
+
+  schools.forEach((schoolURLReport, index) => {
     const id = uuid();
+    const count = index + 1;
+    const [, , , schoolName,] = schoolURLReport.split('/')
+    console.log('index =>', index)
     let schoolsMapper = {};
-    describe('School Scrapper', function() {
+    describe(`School Scrapper for ${schoolName}, ${count} out of ${schoolsCount}`, function () {
       before(() => {
         cy.visit(schoolURLReport);
       });
@@ -41,10 +46,10 @@ describe('Name of the group', () => {
         data.push(schoolsMapper);
       });
 
-        
+
       it('Gets the School name', () => {
         cy.get('.heading-large')
-        .then((element) => {
+          .then((element) => {
             const name = element[0].textContent;
             schoolsMapper = {
               ...schoolsMapper,
@@ -55,7 +60,7 @@ describe('Name of the group', () => {
 
             expect(true).to.equal(true)
           });
-        });
+      });
 
       Object.keys(schoolProps).forEach(key => {
         it(`Gets ${schoolProps[key]} value`, () => {
@@ -70,7 +75,7 @@ describe('Name of the group', () => {
                 value = element[0].querySelector('a').href;
               }
 
-              switch(key) {
+              switch (key) {
                 case 'address':
                   schoolsMapper = {
                     ...schoolsMapper,
@@ -91,7 +96,7 @@ describe('Name of the group', () => {
                     ...ofstedCase(element[0])
                   }
                   break;
-                
+
                 default:
                   schoolsMapper = {
                     ...schoolsMapper,
@@ -101,7 +106,7 @@ describe('Name of the group', () => {
 
               expect(true).to.equal(true)
             });
-          });
+        });
       });
 
       Object.keys(schoolStats).forEach((key, index) => {
@@ -127,11 +132,11 @@ describe('Name of the group', () => {
         cy.get('.data-widget')
           .then(elements => {
 
-            function getSvgElement (element) {
+            function getSvgElement(element) {
               return element.querySelector('svg').outerHTML;
             }
 
-            function getScoreText (element, index) {
+            function getScoreText(element, index) {
               return element.querySelectorAll('text')[index].textContent.replace('%', '');
             }
 

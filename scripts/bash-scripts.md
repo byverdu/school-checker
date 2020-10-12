@@ -3,13 +3,13 @@
 ## Download placements pdf file
 
 ```shell
-> curl https://www.wandsworth.gov.uk/media/4428/how_places_were_offered_2019.pdf --output placements.pdf
+> curl https://www.wandsworth.gov.uk/media/5813/how_places_were_allocated_for_primary_schools.pdf --output .temp/placements-2020.pdf
 ```
 
 ### Convert to html
 
 ```shell
-> pdftohtml -c -s -i -p placements.pdf
+> pdftohtml placements-*.pdf placements-html.html -c -s -i -p
 ```
 
 ### Remove white spaces

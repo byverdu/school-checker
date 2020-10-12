@@ -4,6 +4,7 @@ node_modules
 scrapper/cypress/fixtures
 scrapper/cypress/plugins
 scrapper/cypress/support
+scrapper/cypress/screenshots
 .DS*
 app/
 yarn-error.log
